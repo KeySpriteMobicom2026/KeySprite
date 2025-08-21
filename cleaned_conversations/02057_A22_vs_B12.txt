@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有看到什么mind-blowing的tech新闻吗？'这个话题，你怎么想的？
+[B]: （端起咖啡杯轻啜一口）说到这个...最近以太坊的Dencun升级确实让人眼前一亮。EIP-4844引入的proto-danksharding技术，让Layer2交易成本直接降了90%。这杯咖啡的温度刚好，你要不要也来一杯？
+[A]: （放下咖啡杯）哇，这个Dencun升级确实是个game-changer！我最近在测试网上跑了几笔交易，gas fee简直像坐过山车一样往下掉 🚀 不过说实话，proto-danksharding还只是个开始，真正的danksharding实现后scalability会更惊人。对了，你注意到Blob交易的新机制了吗？
+[B]: （眼睛突然亮起来）Blob交易？啊...这正是最精妙的设计。把临时数据存储在信标链外，通过KZG承诺来保证数据可用性。（突然停顿）等等，你刚才说测试网...用的是Goerli还是Sepolia？现在很多开发者还在适应这个过渡期呢。
+[A]: （快速敲击键盘调出终端）Actually我们团队已经全面切换到Sepolia了！Goerli马上就要deprecated了嘛~（突然想到什么）对了，说到transition，你们怎么处理那些legacy的ERC-20合约？我们最近遇到个坑，有些老合约的gas estimation在新环境下会出问题 😅
+[B]: （若有所思地转动咖啡杯）老合约啊...我们做了个gas oracle的fallback机制。（突然轻笑）看来每个技术升级都像下围棋，既要布局未来，又得照顾历史包袱。你们试过用Tenderly的模拟器来调试吗？那个debug界面做得相当...嗯...优雅。
+[A]: （兴奋地前倾身体）Tenderly确实是个life-saver！不过我更爱用他们的fork功能配合Hardhat，debug智能合约简直丝滑~（突然压低声音）其实我们内部还在测试一个基于Rust的新工具链，compilation speed比Solidity快3倍，但要等EVM兼容性完全搞定才能开源...这个暂时还是trade secret哦 🤫
+[B]: （突然放下咖啡杯，身体微微前倾）Rust工具链？（压低声音）巧了...我们也在做类似的PoC。不过我更担心的是开发者生态的碎片化问题。（恢复平常语调）就像这杯咖啡，再好的豆子也需要合适的萃取方式才能发挥价值，你说是不是？
+[A]: （会心一笑）Exactly！就像当年Web2的browser wars，现在Web3的VM生态也面临同样挑战。（看了眼手表）哎呀，说到这个...我待会还有个meeting要讨论Wasm和EVM的interoperability方案。下次见面咱们可以继续deep dive这个话题，我请你去试那家新开的蓝山咖啡店？
+[B]: （会意地点头）那就说定了。记得带上你的Rust benchmark数据...（拿起外套）那家店的虹吸壶煮法很特别，应该能给我们些新灵感。周三下午三点？
+[A]: Perfect！周三三点，我会带上最新测试数据。（做了个举杯的手势）到时候咱们边喝咖啡边聊聊怎么让Solidity和Rust生态peaceful coexistence~ See you then! ☕️💻
+[B]: （微笑着整理西装袖口）Peaceful coexistence...有趣的比喻。周三见。（转身时突然回头）对了，记得试试他们的90+瑰夏，那风味层次...简直像在debug一个完美的智能合约。
+[A]: （大笑）Hahaha！这个比喻绝了！那咱们周三就来个coffee breakpoint debugging session吧~（挥手道别）Cheers to good code and great coffee! ☕️👨💻
+[B]: （站在门口最后抿了口咖啡）Cheers indeed. （轻轻摇晃杯中剩余的液体）Every good debugging session starts with proper hydration... with caffeine, of course. See you Wednesday.
+[A]: （眨眨眼举起手机）Already set a reminder with 🚀 emoji！周三见～（转身时突然想起）啊对了，记得带上你那台vintage ThinkPad，上次看你用那古董机写Rust的样子简直太硬核了！
+[B]: （忍俊不禁地摇头）那台X220可是我的幸运符...（拍拍公文包）就像区块链里的nonce值，有些传统值得保留。周三让你见识下它编译zk-SNARKs的速度。
+[A]: （夸张地捂住胸口）zk-SNARKs on a X220？！Now that's what I call extreme sport computing 😂 我已经等不及要看这个行为艺术了！周三必须录个vlog发Twitter，标题就叫《当复古极客遇上零知识证明》📸
+[B]: （突然正色）等等...（压低声音）要拍可以，但得用去中心化存储。（恢复调侃语气）我可不想我们的技术行为艺术最后被Web2平台算法埋没。Matters.news怎么样？或者...Arweave？
+[A]: （兴奋地打了个响指）Genius！Arweave永久存储+Livepeer去中心化视频流，perfect combo！（掏出手机快速记录）这内容本身就能当个很好的decentralized tech stack案例研究了~ 周三的咖啡我请定了！🌐🎥
+[B]: （会心一笑）看来这杯咖啡要变成开源项目的kickoff meeting了。（走向电梯）记得带三脚架...我的ThinkPad跑全节点的时候，风扇声音堪比火箭发射。

@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有尝试什么new craft beer吗？'这个话题，你怎么想的？
+[B]: 哈哈，说到craft beer，上周team building的时候刚试了一款local brewery的IPA 🍺 口感很refreshing，而且他们用了blockchain技术做供应链溯源，挺innovative的！
+[A]: 有意思。区块链在精酿啤酒供应链的应用...让我想想。他们用的是私有链还是联盟链？数据上链的节点分布情况如何？
+[B]: Wow，看来你也很懂tech啊！他们用的是consortium blockchain，5个核心brewery作为validating nodes 💡 不过说实话，我觉得他们current的TPS还不足以支撑大规模应用，毕竟精酿行业还是偏niche market~
+[A]: 你提到了关键点。TPS确实是行业痛点...不过考虑到精酿啤酒的产量规模，联盟链的15-20 TPS其实已经够用了。我更关心他们的智能合约如何确保原材料溯源的真实性。
+[B]: Exactly！他们用IoT sensor实时采集hops和malt的temperature & humidity数据，直接写入链上 📊 不过我觉得最smart的是他们的oracle设计，把第三方lab的quality report也作为off-chain data feed进来了 👍
+[A]:  这个设计思路很对。不过要注意预言机可能成为单点故障...他们有没有考虑用Chainlink这样的去中心化预言机网络？毕竟精酿行业对原材料品质的把控可是命脉。
+[B]: Good point！Actually他们正在和一家fintech startup合作开发hybrid solution 🚀 既保留现有oracle的稳定性，又引入Chainlink的decentralized nodes做cross-validation。下周我正好要meet他们的CTO，要不要一起来？可以deep dive一下这个architecture~
+[A]: 下周三下午3点如何？我刚好在科技园有个会议结束。不过提醒你，记得提前准备好关于他们共识机制的问题 - 在精酿这种垂直领域，PBFT可能比PoW更合适。
+[B]: Perfect timing！周三3点works for me 👍 我已经在notion上整理了comparison matrix，对比了PBFT vs. RAFT vs. PoA的throughput和finality time 💻 话说你要不要顺道尝尝他们最新batch的barrel-aged stout？据说用了smart contract来track整个aging process呢~
+[A]: 这倒是提醒我了...桶陈过程的温湿度曲线数据上链时，他们如何处理传感器采集频率和链上存储成本的平衡？周三我们可以重点讨论这个。至于那款stout...最好约在4点之后，我3:45还有个关于零知识证明的线上会议。
+[B]: Got it！那我们make it 4:15在brewery的tasting room见 🕓 我会提前调出他们的sensor data sampling algorithm - 听说他们用了adaptive sampling rate，根据ambient conditions动态调整，超clever的solution！PS：线上会议是zk-SNARKs还是STARKs？最近正好在研究这个for我们的KYC project~
+[A]: STARKs。不过建议你先关注他们的采样算法是否真的实现了梅尔频率倒谱系数...抱歉，职业病又犯了。周三见，记得带上你的笔记本电脑 - 我猜你会想实时查些链上数据。
+[B]: Haha金融科技人的通病啊！No worries，我MBP随时standby 💻 周三见咯，记得穿casual一点 - 那家brewery的vibe很chill，而且他们CEO是个former quant，肯定会appreciate我们的technical depth！Cheers~ 🍻
+[A]: Cheers。 顺便说一句，如果他们CEO真是quant出身...我打赌他们肯定在流动性池设计上用了蒙特卡洛模拟。周三见分晓。
+[B]: LOL你这种quant直觉太sharp了！难怪上次hackathon你们team的AMM model拿了first place 🏆 周三必须好好pick his brain...说不定能collab on下一个DeFi项目呢！Catch you then~ 🚀
+[A]: 保持期待。不过现在...我得先解决眼前这个更重要的问题 - 这批新到的埃塞俄比亚耶加雪菲豆子，烘焙曲线数据还没上链呢。周三记得提醒我带些给你尝尝。
+[B]: Hahaha现在连coffee bean都要on-chain了吗？This is next level！不过说真的，我们公司pantry的区块链咖啡机project正在找beta tester...周三可以顺便pitch给你这个idea ☕️ 绝对比NFT coffee更有substance！
+[A]: 终于有人说点实在的了。NFT咖啡...那根本是在浪费区块空间。不过物联网+咖啡烘焙数据上链，这倒是个值得探讨的用例。周三带份白皮书来 - 只要别像上次那家把拿铁配方写在不可变合约里就行。
+[B]: Deal！这次我们focus在real-world utility 💪 白皮书已经avoid了所有gimmicky stuff，纯讲supply chain transparency和quality assurance。PS：上次那家"unchangeable latte recipe"的DAO现在连barista都跑光了...lesson learned 😅

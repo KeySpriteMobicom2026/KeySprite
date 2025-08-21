@@ -1,0 +1,20 @@
+[A]: Hey，关于'你最近在追什么TV shows或综艺节目？'这个话题，你怎么想的？
+[B]: 最近确实没什么时间追剧...不过倒是看了几集《硅谷》，虽然有些夸张，但里面关于区块链创业的桥段还挺有意思的。
+[A]: 哇！你也看《Silicon Valley》啊！🚀 那部剧的tech细节其实做得挺到位的，特别是他们那个decentralized network的plot line~ 虽然夸张了点，但确实反映了我们blockchain行业的real struggle 😂
+[B]: 确实如此。他们那个Pied Piper的架构设计...让我想起去年参与的一个去中心化存储项目。不过现实中的技术挑战可比电视剧里复杂多了，特别是在共识算法优化这块。
+[A]: Exactly！Consensus algorithm才是真正的hard part啊 🤔 我们team最近就在optimize一个PoS-based的protocol，光是处理validator selection的randomness就debug了整整两周... 话说你用过Tendermint Core吗？
+[B]: Tendermint Core...嗯，去年在跨链项目里用过。不过我们发现它的BFT机制在特定网络条件下会出现性能瓶颈。后来改用HotStuff变种才解决了问题。
+[A]: Oh damn！HotStuff确实是个game changer 🔥 我们也在考虑migrate到那边去~ 不过transition period的cost你算过吗？特别是gas fee在mainnet migration的时候简直是个nightmare 😅
+[B]: 说到gas fee...建议你们先在小规模测试网上做压力测试。我们上次迁移时发现，用批量交易打包可以节省30%左右的成本。不过具体还得看你们的合约复杂度。
+[A]: Good point！✌️ 我们确实需要先run一些benchmark test... 话说你team是用Go还是Rust写的smart contract？我们最近在考虑把部分core module从Solidity转到Rust，因为wasm的performance实在太诱人了 🚀
+[B]: Rust确实是个不错的选择。我们去年就用Rust重写了关键的零知识证明模块，性能提升了近40%。不过要注意wasm的toolchain还不够成熟，调试起来可能会比较头疼。
+[A]: Haha tell me about it！😫 我们senior dev上周还在抱怨wasm的debugger像在玩blindfold chess... 不过为了那40%的boost，这点pain还是值得的！Btw，要不要join我们下个月的hackathon？正好focus在wasm optimization这块~
+[B]: 下个月...让我查下日程。如果是周末的话应该可以。正好我最近在研究wasm的并行计算优化，有些想法可以和大家分享。你们场地选好了吗？
+[A]: Awesome！🎉 我们book了中关村那个co-working space，你知道的，就是有超赞hand drip coffee的那家 ☕️ 我保证这次不会像上次那样让dev们熬到凌晨3点...大概吧 😂
+[B]: 哈，那家店的埃塞俄比亚耶加雪菲确实不错。不过说到熬夜...上次在ETH Denver连续coding 36小时的经历让我学乖了，这次得自带几包冷萃咖啡才行。
+[A]: LOL same here！🤪 我现在travel必带portable cold brew kit，简直就是life saver~ 对了，记得bring你的zk-proof demo，我们CTO超想see那个！Meet you there！🚀☕️💻
+[B]: 一定带上。正好最近改进了circuit的优化算法，现场可以做个benchmark对比。那就下个月见，记得提前发我具体的议程安排。
+[A]: Roger that！📅 我明天就把agenda发你slack，顺便cc我们的tech lead~ 这次hackathon绝对会be lit！Catch you later bro 👋 记得多带几包cold brew啊！😂
+[B]: 会准备的。我最近发现一款肯尼亚的豆子，冷萃出来风味特别干净...到时候可以边debug边品鉴。回头发你slack细聊。
+[A]: OMG Kenyan beans！🤩 我已经可以smell那berry-like acidity了~ 这波绝对是hackathon的hidden agenda！Alright，我得赶紧去schedule那个meeting room了，slack you soon！☕️💻🔥
+[B]: 好，保持联系。顺便提醒你预定个隔音好点的会议室...上次在共享空间调试wasm，背景音乐差点让我们错过一个关键的race condition。

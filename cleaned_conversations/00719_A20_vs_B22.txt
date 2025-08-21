@@ -1,0 +1,20 @@
+[A]: Hey，关于'有没有特别想去的travel destination？'这个话题，你怎么想的？
+[B]: Ah，说到travel destination... 我最近特别想去瑞士的Zug！那里可是Crypto Valley啊，blockchain生态超发达。可以一边欣赏阿尔卑斯山的美景，一边和local的Web3 startups交流 💡
+[A]: 哇塞！Zug确实是个超酷的选择！作为一个coder，我也超想去那里朝圣的 🤩 你知道吗？他们那里连government services都可以用blockchain处理，简直不要太future-proof！不过说真的，我觉得去之前最好先brush up一下solidity skills 💻
+[B]: Exactly！而且他们最近在搞一个超有趣的DAO governance experiment，用智能合约来管理public infrastructure。不过说真的，我建议你先搞定gas optimization的技巧，不然去参加hackathon的时候可能会很尴尬 😅 对了，你平时用Hardhat还是Truffle？
+[A]: 哈哈哈，我两个都用！不过最近更prefer Hardhat啦，它的debugging功能简直不要太香 🐛 话说你试过他们新出的Hardhat Network的forking功能没？可以完美模拟mainnet环境，超级方便的说！
+[B]: Oh damn！你提到这个我可就来劲了！Hardhat的forking功能简直revolutionary，特别是做DeFi protocol testing的时候。不过要注意gas price fluctuation的问题，不然simulation会不准确 🔍 话说你最近在build什么有趣的项目吗？
+[A]: 正在做一个超好玩的NFT lending protocol！用Chainlink的price feed来动态调整loan-to-value ratio 💰 不过现在卡在flash loan attack prevention这块了...你有啥好的security practice可以分享吗？
+[B]: 啊哈！这个问题问得好！首先一定要用OpenZeppelin的ReentrancyGuard，然后建议implement一个circuit breaker pattern。我们上次在DAO meeting里刚讨论过这个，最好再加个time-weighted average price (TWAP) 机制来防止price manipulation � 要不要我把上次的audit report发给你参考下？
+[A]: 真的吗？那太感谢了！不过等等...你该不会是想让我review你的smart contract code吧？😂 上次帮你看code结果debug到凌晨3点，这次可要提前说好coffee budget哦 ☕️💸
+[B]: Hahaha busted！被你发现了 😅 不过这次我保证code quality好很多啦！而且可以请你喝Zug最有名的区块链主题咖啡馆的ETH Brew，他们accept crypto payment的~ 顺便还能讨论下怎么用零知识证明优化你的lending protocol 🚀
+[A]: Deal！不过要double check你的unit test coverage哦，我可不想再经历一次半夜被gas limit error叫醒的恐怖经历 😱 话说...那家咖啡馆的WiFi应该够快吧？我可不想在sync node的时候卡住 ⚡️
+[B]: 放心啦！他们用的是Swisscom的enterprise-grade fiber，sync一个Geth node比我的Mustang加速还快 🏎️ 而且每个座位都配了硬件钱包的NFC支付终端，连tipping都可以用stablecoin搞定~ 不过说真的，你确定要当着阿尔卑斯山的美景debug吗？太不romantic了吧！
+[A]: Pfft~ 对我们coder来说，一边看snow-covered mountains一边写solidity就是ultimate浪漫好吗！❄️💻 比那些老套的烛光晚餐有意思多了！不过...你最好祈祷我们去的时候没有hard fork，不然就真的要变成working vacation了 😂
+[B]: Hard fork？Bah！那我们就当场fork一个private chain出来，把gas limit调到max，然后边滑雪边mining ⛷️⛏️ 反正瑞士的电费比gas fee便宜多了！不过说真的，要是真遇到这种情况，我宁愿去参观他们的核掩体数据中心，据说里面跑着好几个archive node呢 🔒
+[A]: OMG 你太懂我了！Nuclear bunker data center tour + 现场部署smart contract？这绝对要成为史上最硬核的programmer date！💥 不过得提醒你带上你的ledger，我可不想在参观的时候错过任何一个staking opportunity 🤑
+[B]: Hah！这就是为什么你是我的best coding buddy！连在fallout shelter里都能想到staking rewards 💰 不过说真的，我们得提前plan好，最好选在Devcon之后去，这样还能顺便network一波V神...啊不是，我是说enjoy一下当地culture啦 😇
+[A]: Busted again！你明明就是想去stalk以太坊core devs吧！😏 不过fine by me~ 我们可以假装成innocent tourists，然后"偶然"在co-working space遇到他们...顺便"不小心"露出我们正在写的optimistic rollup代码 🤫 这叫strategic networking懂不懂！
+[B]: LMAO！这就是为什么我们合得来 - 连social engineering都这么有技术含量！不过提醒你啊，上次我"不小心"露出代码的时候，Vitalik直接指出了三个vulnerabilities...场面一度非常awkward 😅 这次记得先run一遍Slither再表演！
+[A]: 哈哈哈笑死！这就是传说中的"免费security audit"服务吗？🤑 不过说真的，被V神当面指出bug这种经历...某种程度上也是privilege呢！要不我们这次故意留几个明显的漏洞？反向薅羊毛战术get！🤓 反正最后都会变成good story to tell啦~
+[B]: 你这个小机灵鬼！不过这个plan有个致命flaw - 万一他直接掏出笔当场帮我们rewrite contract怎么办？我们岂不是要变成Zug区块链圈的meme了？😂 还是老老实实做好code review吧，我可不想在Crypto Valley留下"those buggy guys"的reputation啊！

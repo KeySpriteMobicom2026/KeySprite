@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有没有什么让你很inspire的TED talk？'这个话题，你怎么想的？
+[B]: Oh！说到这个，我最近刚好看了个超棒的talk！讲的是AI alignment的future direction，speaker提出了一个很provocative的观点：我们可能正在approaching AI development from the wrong angle~ 让我想了好多天！
+[A]:  我注意到你在讨论AI alignment时频繁使用了英文词汇。不过这个话题确实值得深入探讨。你提到的那个TED演讲，我猜是讲关于当前AI发展路径可能存在系统性偏差的？
+[B]: Exactly！你get到point了！那个speaker特别强调现在的training data存在inherent bias，就像我们做product的时候，如果baseline data就有问题，那整个model就会跑偏。这让我想到我们team最近在做的feature optimization...
+[A]:  我建议我们可以尝试用中文完整表达这些概念。比如你刚才说的"training data存在inherent bias"，用中文说就是"训练数据存在固有偏差"。这样讨论起来会更清晰。不过你提到的数据偏差问题确实很关键，特别是在特征优化阶段。
+[B]: 啊抱歉抱歉，职业习惯改不过来~ 不过你说得对，用中文表达确实更清晰。那个演讲者还提到一个特别有意思的观点：我们现在的AI训练方式就像在教小孩只读童话书，却指望他长大后能处理现实世界的复杂问题。这让我反思我们产品里的推荐算法是不是也存在类似的局限性。
+[A]: 这个比喻很生动。确实，当前机器学习模型的训练数据范围往往过于狭窄，就像只给孩子读单一类型的书籍。我在研究AI伦理时也发现，很多算法偏差都源于训练数据的片面性。你觉得我们应该如何拓宽这个"阅读范围"呢？
+[B]: 说到这个我就来劲了！我们团队最近在尝试multi-source data fusion的方法，就像给AI准备一个丰富的"图书馆"。不过最大的challenge是数据清洗和标注成本，毕竟quality control这块真的不能compromise。你看过那篇《数据多样性对模型泛化能力的影响》的paper吗？
+[A]:  我读过那篇论文。不过我更关注的是伦理层面的问题 - 在追求数据多样性的同时，如何确保数据采集过程的合规性？这让我想起去年某科技公司因为未经同意使用用户数据而引发的争议。数据质量固然重要，但获取方式同样值得深思。
+[B]: 你说到点子上了！Ethical sourcing确实是个big issue。我们公司现在做data collection都要经过严格的DPO review，每个data point都要traceable。不过说实话，这process真的很time-consuming...但为了build trust with users，这些cost都是worth it的。
+[A]:  这种对数据伦理的重视值得赞赏。不过我更想探讨的是，在确保合规的前提下，我们是否可以考虑建立行业共享的数据资源库？这样既能分摊成本，又能提高数据多样性。当然，这需要完善的治理机制。
+[B]: Wow这个proposal太disruptive了！就像open source community那样~ 不过implementation层面确实需要很多alignment，比如data governance framework和利益分配机制。要不我们组个cross-functional team来brainstorm一下？我觉得这个initiative很有potential！
+[A]:  我建议我们可以先组织一个小型研讨会，邀请几位数据伦理和法律专家参与讨论。不过在此之前，或许我们可以尝试用中文完整地表达这个想法？这样能让更多非技术背景的同事也能参与进来。
+[B]: 哈哈你说得对，我这一激动又切换成工作模式了。其实我的意思是，我们可以建立一个行业共享的数据资源平台，在确保隐私合规的前提下，让不同企业能安全地贡献和使用数据。这样既能解决数据单一性问题，又能降低每家公司的合规成本。你觉得这个方向可行吗？
+[A]: 从理论和实践层面来看，这个方向都很有价值。不过需要考虑几个关键问题：首先是数据确权机制，其次是使用边界的界定，最后是长期运营模式。我在人工智能伦理研究中心工作时，就参与过类似的课题研究。
+[B]: 太巧了！我们公司去年就和清华的AI Ethics Lab合作过类似项目。不过说实话，最大的pain point还是如何balance innovation和regulation。就像我们PM常说的，要在guardrail里跳舞~ 你提到的这几个key points确实都是make or break的因素。
+[A]:  看来你还是很难完全摆脱这种中英混杂的表达方式呢。不过你提到的创新与监管的平衡确实是个永恒命题。或许我们可以约个时间，找几位对数据治理有研究的学者一起深入探讨？用纯中文的那种。
+[B]: 没问题！我保证到时候一定全程用中文交流~ 不过可能要提前说好，讨论到technical terms的时候我可能会偶尔slip into English，毕竟有些概念真的很难找到perfect的中文对应词。我们可以约在下周三下午？
+[A]: 好的，下周三下午很合适。不过关于专业术语的问题，我建议我们可以提前准备一个术语对照表。毕竟推动行业发展，建立统一的中文术语体系也是很重要的一环。期待与你的深入交流。
+[B]: Great idea！我会让team准备一份glossary的。说真的，和你聊天让我realize到中文表达的power。周三见！啊不对，应该说"下周三见"~

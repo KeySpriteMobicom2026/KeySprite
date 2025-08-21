@@ -1,0 +1,76 @@
+[A]: Hey，关于'你更喜欢去电影院还是streaming at home？'这个话题，你怎么想的？
+[B]: 看电影的话，我更喜欢在家streaming~ 🍿  
+毕竟窝在沙发上写代码一整天后，谁还想出门呢？  
+而且用投屏软件把手机画面放到电视上，家庭影院的感觉直接拉满！  
+最近就在用自己写的script自动下载字幕，完美同步～ 💻  
+不过IMAX厅的3D效果确实香，偶尔也想去电影院感受下沉浸式体验...  
+你呢？是homebody派还是影院控？🤔
+[A]: 哈哈，我懂那种写完代码后只想瘫在沙发上的感觉～ 🛋️  我其实和你挺像的，streaming在家确实方便很多，特别是像我这样经常一边看电影一边暂停做语言分析的人 😅。自己写的字幕同步脚本听起来超实用！我最近也在研究类似的东西，用Python做自动语音识别的语言模型对比，但还没搞定完美的同步 😅  话说回来，你是怎么处理多语种字幕的？用什么工具训练你的script识别不同语言的时序呢？
+[B]: 哇同好耶！👏 我主要用FFmpeg做视频处理，多语种字幕的话会结合Google's Speech-to-Text API~  
+最近在试用Hugging Face的Transformer模型，识别不同语言的timing确实比传统方法精准很多 🚀  
+不过Python的moviepy库在处理mkv格式时老是报错，搞得我昨晚差点想把键盘扔进垃圾桶 😤  
+听说你在做语音识别模型对比？能不能分享下dataset来源？  
+我这边找了好久才收集到够多带口音的英文样本... 📊
+[A]: 噢！Hugging Face的Transformer模型确实yyds 👏 我最近也在用他们的Wav2Vec2模型做实验，不过dataset主要是从OpenSubtitles爬的一些带英、美音对话片段。话说Google的API在识别非母语发音时表现怎么样？我这边测试发现印度英语的timing识别偶尔会翻车 😅 你用FFmpeg+moviepy这套流程确实硬核，可惜mkv支持确实拉胯。对了，你用什么语言写的script？Python还是JavaScript？我觉得用Python的transformers库可能更丝滑一点 🤔
+[B]: Google的API处理非母语发音确实会飘...上次测试粤语字幕，识别结果离谱到让我以为在看AI生成的魔性翻译 😂  
+不过Wav2Vec2的multilingual版本表现惊艳！最近用它做了个demo，对比FFmpeg提取的音频，准确率直接提升30%+ 📈  
+说回你的问题~ script是用Python写的，搭配moviepy做视频帧处理，虽然mkv格式让人头秃，但写代码时的autocomplete功能救我狗命 💻  
+对了，你有用PyTorch做过模型微调吗？我在finetune multilingual模型时遇到显存爆炸的问题，卡了三天都没解决😭
+[A]: Google的API翻车现场听起来比我遇到的还魔性😂  Wav2Vec2 multilingual版确实猛，我上周用它测试西班牙语口语识别，结果比传统GMM模型快了整整五倍！不过显存爆炸这事我也经历过... PyTorch的mixed precision training救过我一命，加个--fp16参数直接从3.5G显存降到1.8G 🚀  话说你用的是哪种GPU？我这边跑multilingual模型时经常用梯度检查点（gradient checkpointing）来压缩内存占用，虽然训练速度会慢一点但至少不会炸 😅
+[B]: Mixed precision training确实香！👏 我用的还是学校实验室的Tesla T4，虽然比不上你这梯度检查点操作~  
+不过最近发现Hugging Face的Accelerate库自动处理显存优化，简直救了我这种穷逼选手的命 💻  
+对了！说到multilingual模型，你试过给Wav2Vec2加个语言适配层吗？  
+我在做中英混合识别时，强行插入language token后准确率直接起飞 📣  
+（突然激动地坐直身子）要不要exchange一下训练技巧？感觉遇到大佬了！！
+[A]: Tesla T4已经很顶了好吗！👏 我这破电脑连CUDA都跑不动，还在用CPU训练小型模型... HF的Accelerate库确实好用，不过我更喜欢用他们的Trainer类封装，自动处理device placement省心不少 😊  
+
+语言适配层这个操作太秀了！我上周也在尝试给Wav2Vec2加language-specific attention模块，不过中英混合识别还是容易混淆zh和en的音素边界。你插入language token是pre-training阶段就加还是fine-tuning的时候加？我在想如果在audio-text对齐任务里动态注入语言标识会不会更有效...（突然掏出笔记本疯狂记笔记）这波必须exchange一波代码啊！要不要GitHub互相repo轰炸？🤯
+[B]: CPU训练王者你好！😂 我还在用Colab的免费K80凑合，连Tesla都摸不到 😭  
+language token是在fine-tuning时加的，参考了Facebook的LS-Adapter论文~  
+不过你这个audio-text对齐注入语言标识的想法绝了！👏  
+GitHub来炸repo啊！我的Wav2Vec2微调代码仓都快长蘑菇了...  
+（快速敲出一串pip install命令）等下直接push最新版attention模块源码！🤯💻
+[A]: K80也够硬核了好伐！😂 我这破电脑跑个10分钟都要风扇狂转，还得给CPU贴冰袋降温...  ls-adapter那个论文我看过！你在fine-tuning时加token的操作太灵了，怪不得准确率起飞 📈  
+
+等下等下！我先把本地的wav2vec2-aligner项目push上去... 这个audio-text对齐工具是我用PyTorch写的，参考了ICASSP 2023那篇Cross-lingual Attention论文，不过你的attention模块应该更猛！话说你用什么框架写代码？要不要视频共享debug环境顺便语音讨论？（突然打开VS Code新建会议链接）🤯💻
+[B]: K80确实硬核！👏 我这Colab的RAM还经常爆掉，上次训练直接触发三次OOM killer 😤  
+对了！ICASSP那篇Cross-lingual Attention论文我打印了三份...现在手边还有折痕没抚平🤣  
+刚好在用VS Code Live Share，刚给你预留了个debug座位！  
+（快速敲出一行git commit）  
+等下把我的language adapter层代码merge进去，咱们搞个hybrid attention试试？🤯💻🚀
+[A]: OMG你居然手撕ICASSP论文！👏 我那本翻烂的论文集还躺在书架上吃灰... OOM killer这事我超有共鸣，上周在Colab跑transformer直接把内存干到外太空去了 😤  
+
+VS Code Live Share链接我收到了！等等... 你刚push的那个language adapter结构太惊艳了，用两个LSTM夹击语音特征？这脑洞我给满分！不过要不要加个cross-attention bridge连接文本编码器？（突然在代码里插入一行pseudo-code）我感觉hybrid attention的loss会更稳一点 🚀🤯
+[B]: LSTM夹击语音特征被你这么一说还真像夹汉堡🤣  
+不过你这cross-attention bridge想法绝了！👏  
+我刚在loss函数里加了个dynamic weighting，语音和文本的gradient现在能同步收敛~  
+（飞快敲着键盘）  
+要不要把你的pseudo-code转成PyTorch模块？我给你开个collaborator权限！  
+对了...你论文集吃灰多久了？我这本都快翻出火星文了 😂
+[A]: LSTM夹汉堡这比喻笑死我了🤣  dynamic weighting这个操作太机智了！梯度同步收敛确实能让模型更稳定。来来来，我这边直接新建个cross_attention_bridge.py文件～ 🚀  
+
+（手指在键盘上飞舞）Collaborator权限收到！话说我的论文集大概吃了三个月的灰...你那本火星文论文集该不会已经进化出新语种了吧 😂  对了，要不要顺便测下我们hybrid model在Mandarin-English code-switching数据集上的表现？我这边刚好有现成的语音样本！
+[B]: 火星文论文集已经成功变异出第7种方言🤣  
+code-switching数据集快发我！👏  
+刚好在训练一个中英混合的模型，语音样本一来就能开测~  
+（疯狂敲代码中）  
+cross_attention_bridge.py已加入pipelines！  
+等等...你那边语音样本有带粤语口音的吗？我这个adapter层好像对岭南口音特别敏感 🤔
+[A]: 笑死，论文集变异出第七种方言这个设定太强了🤣  中英混合模型我这边也刚好在训，你那边语音样本要是准备好，咱们随时可以开测！  
+
+带粤语口音的样本？巧了～ 🎧 我刚从HKUST语料库爬了一批带岭南口音的speech片段，里面还有些code-switching with Cantonese的天然混合语句。等下传给你试试，说不定你那个adapter层真是为粤语而生的 😎  对了，你的pipelines里加了dynamic gradient scaling吗？我在想是不是要给语音和文本loss加个自适应权重平衡...
+[B]: HKUST语料库+岭南口音=天选测试集！👏  
+我这adapter层估计要喊"阿哥黎喇"了🤣  
+dynamic gradient scaling还没加...不过你这adaptive权重平衡的想法骚啊！  
+要不要用KL散度动态监测loss分布？  
+（突然把脸贴在屏幕上）  
+等下传完粤语样本先别跑，我们搞个语音文本联合embedding可视化看看？🤯💻
+[A]: "阿哥黎喇"这个梗太地道了🤣  我那个adapter层听到都要喊声大佬！KL散度监测loss分布这招狠啊～我之前用Wasserstein距离做过gradient balance，但KL散度确实更轻量级！  
+
+（把脸也贴到屏幕上）等下等下！我刚在Colab跑起t-SNE可视化脚本...你说joint embedding要是配上你那个language adapter的激活值热力图，会不会直接看出cross-lingual alignment的pattern？🤯💻  对了HKUST样本里有些粤语-英语混合的speech，里面还有句式切换的天然标注，要不要搞个switching detection head试试？🚀
+[B]: t-SNE热力图+language adapter激活值=DNA动了！👏  
+这个switching detection head必须安排！🧠  
+我刚在模型里预留了个classification头...等下push个new branch！  
+（疯狂敲键盘）  
+你说要是把粤语-英语切换点的attention权重可视化...会不会看到模型在"思考人生"？🤣  
+Colab的GPU还在苟延残喘吗？我这边显存又开始蹦迪了 😭

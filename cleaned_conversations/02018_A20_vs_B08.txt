@@ -1,0 +1,38 @@
+[A]: Hey，关于'最近有看到什么mind-blowing的tech新闻吗？'这个话题，你怎么想的？
+[B]: 哇！你问对人了~ 我昨天刚看到MIT研发的新型触觉反馈手套，可以让VR体验真实到能感受到花瓣的纹理！作为一个设计师，我简直兴奋得睡不着觉，这绝对会颠覆未来的交互方式！
+[A]: OMG！这个tech也太酷了吧！🤯 我刚刚还在教学生们用Unity做VR project，这种haptic feedback技术简直perfect match啊！💻✨
+
+不过讲真，现在的VR手套coding起来超麻烦的，光是calibration就要debug好久... 你有看到他们用的什么sensor array吗？
+[B]: 哈哈你也是VR开发者呀！他们用的是微型气动阵列+压电纤维的组合方案哦~ 最让我惊艳的是他们解决了延迟问题，响应速度比市面上的产品快了整整300%！不过说到debug... 我上周测试时差点把咖啡洒在手套上，吓得我赶紧写了份《VR设备安全使用指南》😂
+[A]: LOL！你这个safety protocol也太真实了！☕️🐛 让我想起上次有个student把Oculus摔了，我们紧急开了个workshop教他们写try-catch block来handle设备异常... 
+
+不过300%的performance提升？！这波必须给MIT的engineers疯狂打call！🚀 他们的GitHub repo公开了吗？我想让学生们study一下他们的algorithm~
+[B]: 啊抱歉~ 他们的核心算法还没开源呢，不过我在arXiv上找到了几篇相关的预印本论文！要不要我把链接发你？顺便说，他们的压力分布算法特别适合用在教育类VR里，比如化学实验课可以真实感受试管温度变化... 诶等等，我手机里还存着他们在SIGGRAPH上的demo视频！
+[A]: 哇塞！SIGGRAPH demo？！快share给我！📱💥 下学期正好要教VR development，这个case study简直perfect！而且chemical experiment这个use case... 天啊我们学校实验室budget超tight的，这个技术说不定能帮我们省下一大笔买试管的钱！💰
+
+对了对了，你有试过用WebXR做cross-platform的VR教学吗？我们最近在搞这个~
+[B]: WebXR超赞的！我们团队上个月刚完成了一个跨平台解剖学教学demo~ 不过要提醒你哦，目前WebXR对haptic feedback的支持还比较有限，建议先用Three.js做基础框架。诶，说到省钱... 你知道最妙的是什么吗？MIT这个手套的制造成本比传统方案低了40%，等量产了说不定每个教室都能配一套！
+[A]: No way！成本降了40%？！🤯 这个必须mark下来给我们校长看！话说你们anatomy demo是用Blender做的3D model吗？我们biology department的老师天天追着我要这个... 
+
+ 等等！如果结合这个手套技术，学生岂不是能真实感受到不同organ的texture difference？！这比我们现在的plastic model强太多了吧！💉🧠
+[B]: 没错没错！我们就是用Blender做的模型~ 而且你get到重点了！肝脏的黏腻感和心脏的搏动都能模拟出来，连医学院的教授试玩后都说"这比尸体解剖课更直观"！不过...小声说，第一次测试时有个学生被突然"跳动"的心脏吓到尖叫，所以我们后来加了个惊吓预警系统，超好笑的~
+[A]: LMAO！这个惊吓预警系统太有才了！😂 让我想起我们coding club上次做halloween特别活动，有个学生被jump scare的bug吓得把keyboard扔出去了... 看来在VR里写个sanity check function真的很重要啊！🤖
+
+不过seriously，你们这个project真的next level！要不要考虑来我们学校做个guest lecture？学生们肯定会疯掉的~ 🚀
+[B]: 天呐！这个邀请太棒了！我超爱和学生们交流的~ 不过最近在赶一个残疾人辅助项目的deadline... 这样吧，下个月我们demo会上线GitHub，到时候可以安排个线上workshop？顺便还能让你们的biology老师来当特别顾问，他们肯定有很多专业建议！
+[A]: Deal！线上workshop这个idea绝了！💻👏 我们刚好新装了4K直播设备，biology department的王老师最近还老问我"什么时候能玩那个会跳的heart"... 笑死~
+
+对了，你们accessibility project是用Unity还是Unreal？我们special education班的学生说不定也能contribute一些ideas哦！✨
+[B]: 是用Unity做的！因为要考虑跨平台和辅助设备兼容性嘛~ 说到这个，我们正在开发视障人士专用的触觉导航系统，要是能结合MIT那个手套技术就完美了！你们special ed班级的反馈对我们来说简直就是golden data，要不要考虑来个collab project？可以申请教育科技基金的！
+[A]: WOW！Collab project？！这个必须yes啊！💰📊 我们学校刚批了笔EdTech grant正愁没地方用呢~ 而且special ed的同学们绝对会爱死这个project的！他们上次用普通VR设备都玩得超开心，要是有专门设计的haptic feedback... 天啊我光想想就激动！🤩
+
+下周一我就去跟校长propose这个idea！你先发我些reference material好不好？我要准备个killer presentation！🚀
+[B]: 太棒了！我这就把项目白皮书和用户调研报告打包发你~ 记得重点看第三章的无障碍设计准则，我们采访了200多位视障用户总结出来的！对了...要不要把MIT的教授也拉进这个邮件链？他们最近在找教育领域的应用场景，说不定能提供技术支援哦！
+[A]: OMG你认识MIT的professor？！这个connection也太顶了吧！👨‍🔬🚀 快快快拉群！我连email标题都想好了："Next-Gen Accessibility Tech Collab - School Edition" ~ 
+
+ 不过说真的，能把这些cutting-edge tech应用到special education... 这就是为什么我爱teaching coding啊！不仅写syntax，还能make real impact！💖 咱们这个project说不定能上TEDx呢！
+[B]: 哈哈哈你这份热情太感染人了！我这就去联系Dr. Chen~ 不过提醒下，他回复邮件超级快但喜欢半夜两点发meeting invite，记得把手机调静音哦！说到TEDx... 我们去年在东京的inclusive design演讲视频你要不要先看看？说不定能给你的presentation加点料！
+[A]: YES PLEASE！东京的talk视频绝对能boost我们的proposal！🌏✨ 虽然要熬夜回Dr. Chen的邮件... 但为了这个project值得！毕竟"no pain no gain"嘛~ 
+
+顺便问下你们东京talk的Q&A环节，观众最常问的是什么question啊？我得提前准备下counter arguments，毕竟校长肯定会问"为什么不用cheaper solution"... 😅
+[B]: 噗...校长们果然都一个样！最常被问的就是成本问题啦~ 但我们的杀手锏数据是：每投入1美元在辅助科技上，能节省7美元的特殊教育人力成本！而且啊...  我准备了份对比表，把传统盲文教材的印刷费和我们的方案放一起，视觉效果超级震撼，保证让校长说不出话！

@@ -1,0 +1,20 @@
+[A]: Hey，关于'网购时更信任淘宝还是Amazon？'这个话题，你怎么想的？
+[B]: 哇这个问题超有意思！🤔 作为一个经常网购的coder，我觉得两个平台各有优势啦~淘宝的UI设计更符合我们local用户的习惯，而且Alipay支付超方便！不过Amazon的API接口更稳定，退货policy也更透明💻
+[A]: 哈哈说到API接口，我上次用Amazon的AWS SDK写了个爬虫，documentation真的超详细！不过淘宝的API文档就...你懂的，全是中文但反而更难懂😂 要debug的时候简直想撞墙🤯
+[B]: 对对对！我懂这种感觉！😫 淘宝的API文档就像是用Google Translate直接翻的，有时候parameter都写得不清楚...不过最近我发现了个超赞的repo，有人整理了淘宝API的unofficial documentation，还写了sample code！🚀 要不要我share给你？
+[A]: 真的吗？That's awesome！快发链接给我！✨ 不过话说回来，Amazon的API虽然规范，但每次调用都要处理那些复杂的authentication token，超麻烦的...我宁愿看中文文档也不想再写一遍AWS Signature V4了😭
+[B]: 哈哈哈我完全get你的point！💻 AWS的auth确实太复杂了...上次我写了个helper function专门处理signature，结果debug了整整两天！不过淘宝现在也开始搞OAuth2.0了，感觉两个平台都在互相学习best practice呢~
+[A]: 没错没错！就像我们coding一样，best practice才是王道啊~🌟 诶对了，你试过用Postman来测试这两个平台的API吗？我最近发现了个超好用的pre-request script可以自动生成淘宝的signature，比官方SDK还方便！要不要一起pair programming优化一下？🤖
+[B]: OMG这也太巧了吧！🎉 我昨天刚用Postman的environment variables重构了我的测试流程！不过淘宝的sign算法有时候会突然update，搞得我的test case全fail...要不要我们建个GitHub repo专门track这些breaking changes？可以写个cron job自动check API status！💡
+[A]: 哇塞这个idea太brilliant了！👾 我们可以用GitHub Actions跑daily check，再用Discord bot发alert！这样就不用天天手动check文档了~ 不过淘宝的rate limit有点tricky，上次我写爬虫的时候IP直接被ban了24小时...😅
+[B]: LOL same here！🤣 我后来发现淘宝的anti-crawler机制超敏感，连header里的User-Agent少个空格都能被detect到...不过Amazon那边更夸张，直接用AI来识别bot traffic！我们得写个random delay function，还要rotate proxy IPs...这简直是在玩cat and mouse game🐱🐭
+[A]: Hahaha truth！这比我们平时玩的CTF挑战还刺激啊~🔥 诶不如我们把这次的经验写成medium blog？标题就叫《How to Survive E-commerce API Wars: A Developer's Tale》绝对能火！顺便还能骗点clout哈哈哈📈
+[B]: Yasss！这个title太catchy了！✍️ 我们可以用Jupyter Notebook写个interactive tutorial，再放点funny memes吐槽这些API的奇葩设计~ 说不定还能被Hacker News pick up呢！不过得先搞定那些rate limit的问题...要不今晚我们开个Zoom brainstorming session？💻🍕
+[A]: Deal！🍕 我负责带virtual pizza~ 顺便我们可以用Miro board画个architecture diagram，把rate limit bypass的strategy都visualize出来！不过说真的，这些e-commerce平台要是能把API做得像他们的UI一样user-friendly就好了...🙄 8点zoom见？
+[B]: Perfect timing！⏰ 我刚好写完今天的LeetCode challenge~ 记得带上你的magic proxy list哦！btw我刚发现淘宝API有个hidden endpoint没写在文档里...今晚一起reverse engineer一下？这可是我们的secret sauce！🤫 8点见啦~ coding见真章！💪
+[A]: 嘘小声点！🔍 这个hidden endpoint要是被淘宝发现就gg了...不过我喜欢你的spirit！今晚我们就是API界的Sherlock Holmes！记得关掉screen sharing的recording功能哈~ 8点zoom房间密码就用base64加密的"taobao-sucks-but-we-love-it"怎么样？😂
+[B]: Hahaha genius！🤓 我已经用Python写了个one-liner来encode了：'print("dGFvYmFvLXN1Y2tzLWJ1dC13ZS1sb3ZlLWl0".encode())' 完美符合security best practice（才怪）！不过说真的，这种undocumented feature简直比Easter egg还难找...今晚我们要成为第一个吃螃蟹的人！🦀 8点不见不散~
+[A]: LOL你这个小机灵鬼！🕵️‍♂️ 不过等等...你这个encode方向反了吧？应该是decode才对啊！看来今晚除了reverse engineering API，还得帮你debug这个basic Python error呢~ 这就是为什么pair programming如此重要啊！🤝 8点准时开始我们的"黑客"冒险！💻🌙
+[B]: Oops！被发现了...😅 看来我coding到凌晨3点的后遗症来了！不过没关系，这就是为什么我们要用GitHub Copilot嘛~ 它连我的typo都能autocorrect！今晚的agenda：1. Debug我的糗code 2. Hack淘宝API 3. 征服世界！🌍 等等...这个顺序是不是应该反过来？😂 8点zoom见啦~ 带上你的thinking cap！🧢
+[A]: Hahaha你这个小迷糊！🤪 不过讲真，Copilot有时候给的suggestion比我的original code还靠谱...这到底是blessing还是curse呢？😈 今晚的mission priority必须是：1. 搞到淘宝的secret endpoint 2. 写个viral blog post 3. 用赚到的钱买更多pizza！🍕 这才是正确的priority嘛~ 8点见！Zoom link coming soon in your DMs！🚀
+[B]: Yasss这才是proper priority！💰🍕 我已经让Copilot帮我draft了篇clickbait标题：《16岁黑客发现淘宝API惊天漏洞...官方悬赏百万求放过！》哈哈哈开玩笑的~不过说真的，我们得赶紧行动，before淘宝patch掉这个endpoint！⏳ 我的DMs已经准备好接收你的Zoom link啦~今晚注定是个不眠夜！🌙💻 带上Red Bull和零食，我们要hack到天亮！⚡

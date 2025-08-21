@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有尝试什么DIY project吗？'这个话题，你怎么想的？
+[B]: 哇！这个问题问得好~最近我确实在捣鼓一个超有趣的智能家居DIY项目！用树莓派做了个可以根据心情自动调节灯光颜色的床头灯，还加入了语音控制功能呢✨
+[A]: That's so cool！智能家居DIY确实是个很棒的lifestyle enhancement方式呢~☕️ 我最近也在帮一位客户设计类似的personalized lighting system，不过我们用的是Arduino平台。你遇到什么technical challenges了吗？
+[B]: 哈哈说到技术挑战...最头疼的就是让灯光过渡更自然了！我试了好几种PWM算法，最后发现用HSL色彩空间转换比RGB平滑多了~诶你客户的项目用Arduino的话，是用FastLED库吗？
+[A]: Exactly！FastLED确实是个game changer~不过我更推荐你试试看NeoPixel库，它的gamma correction功能可以让色彩transition更加smooth。说到这个，我上周刚在workshop里调试了一个类似的mood lighting system，要不要分享我的code snippet给你参考？
+[B]: 真的吗？太感谢啦！我正愁找不到好的gamma校正方案呢~不过...等等，你该不会是用Python写的吧？我的树莓派跑Python总觉得反应有点延迟，特别是语音控制的时候😅
+[A]: Haha我懂你的concern！Actually我用的是C++写的firmware，performance会好很多~不过说到voice control，你考虑过用ESP32吗？它的dual-core processor处理语音指令会更responsive哦。顺便问下，你的project有考虑加入环境光sensor吗？这样可以根据daylight自动调节亮度会更smart~💡
+[B]: 啊！环境光传感器这个idea太棒了！我之前完全没想到...现在满脑子都是新功能要加了！不过等等，ESP32的话是不是得重新设计电路板？我的焊接技术还停留在"能亮就行"的水平呢😂
+[A]: Don't worry！现在很多ESP32开发板都是ready-to-use的~比如NodeMCU系列，完全不需要复杂的circuit design。说到焊接，我强烈建议你试试看面包板prototyping first，这样能避免很多headache。By the way，我下个月要在coworking space办个小型IoT workshop，感兴趣的话可以来exchange ideas哦！✌️
+[B]: 真的吗？我一定要来！刚好最近在纠结要不要把项目开源...对了，你workshop会讲MQTT协议吗？我总觉得我的设备间通讯还不够稳定，经常丢包😫
+[A]: Absolutely！MQTT正是workshop的key topic之一~我们还会cover一些real-world的QoS优化技巧。说到开源，我建议你先在GitHub上建个private repo，等workshop之后我们可以一起做code review。Trust me，peer review能发现很多自己overlook的issues呢！😉
+[B]: 太好了！我已经开始期待workshop了~不过在那之前我得赶紧把我的代码整理一下，现在注释写得乱七八糟的...（小声）其实有些函数我自己都看不懂当时为什么要那么写了🤫
+[A]: LOL！我们都经历过这种"未来自己看不懂的code"阶段啦~建议你用VS Code的TODO插件标记需要重构的部分，workshop时我们可以重点讨论。Remember：Clean code is a journey, not a destination！🚀 对了，记得带上你的prototype，我很期待看到你的color transition效果呢~
+[B]: 一定一定！我现在就去给代码加TODO标签...啊！突然想到个问题，你说我要不要给灯光系统加个"勿扰模式"？就是检测到用户睡着后自动调暗的那种~（突然兴奋）可以用ESP32的蓝牙检测手机是否在充电来判断！
+[A]: Genius idea！不过考虑到false alarm，我建议结合multiple sensors会更reliable~比如加个毫米波雷达检测呼吸频率，或者用sound sensor监测鼾声（笑）。我们workshop正好有这方面的demo，到时候你可以亲自体验下不同方案的pros and cons！🌟 现在快去整理你的code吧，see you soon！
+[B]: 嗯嗯！已经设置好提醒了~到时候见！现在浑身充满干劲，感觉能一口气改完所有bug！（虽然可能坚持不到半小时就会开始怀疑人生了🤣）
+[A]: Hahaha that's the spirit！记住我们的motto：'Every bug fixed is one step closer to perfection'~ ☕️ 要是遇到stuck的地方随时DM我，我们workshop前可以先brainstorm一下。Now go get that code cleaned up！Catch you later！✈️
+[B]: 收到！这就去和代码大战三百回合~（突然想到）对了，记得提醒我workshop那天带充电宝，上次做demo做到一半没电的惨剧我可不想重演了😭 Bye bye！
+[A]: Roger that！我会准备extra power banks的~毕竟nothing worse than a dying demo！😂 Keep me posted on your progress，and don't forget to take coffee breaks！☕️ Cheers！
+[B]: 知道啦！咖啡续命是程序员...啊不是，是设计师的标配嘛~（看了眼桌上第3杯咖啡）我先去改代码了，workshop见！✨

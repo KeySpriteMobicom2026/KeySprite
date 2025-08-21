@@ -1,0 +1,194 @@
+[A]: Hey，关于'最近有没有什么让你很inspire的TED talk？'这个话题，你怎么想的？
+[B]: 最近我看了一个关于AI伦理的TED talk，挺有感触的。演讲者提出了一个很有意思的问题——我们训练AI的数据到底反映了谁的价值观？这让我想到之前在做NLP项目时遇到的一些bias issue，确实值得深思。你有看过什么让你印象深刻的吗？
+[A]: That确实是一个非常critical的问题。The data we use to train AI models often carries the implicit biases of its creators, which then gets amplified through algorithmic processing. It reminds me of what Jacques Derrida once said about the archive - it's never neutral, always shaped by power structures. 
+
+I recently watched a talk by Joy Buolamwini titled "How I'm fighting bias in algorithms". Her work on gender and racial bias in facial recognition technology was eye-opening. As someone who teaches literature, it made me think about how similar issues of representation have played out historically in narrative traditions - who gets to tell the story, and whose voices are marginalized?
+
+When you were working on your NLP project, did you find certain types of bias more prevalent than others? I'd be curious to hear more about your experience from a practical perspective.
+[B]: That's such a profound connection you made between Derrida and data archives - really mind-opening 👍 And thanks for recommending Joy Buolamwini's talk, I'll definitely check it out later. 
+
+In my NLP project, we found some interesting patterns when dealing with sentiment analysis models trained on social media data. The model kept misclassifying certain types of colloquial expressions commonly used by younger demographics. It reminded me how even "neutral" technical systems carry the weight of historical linguistic power dynamics - like how certain dialects or speech patterns get labeled as "informal" or "unprofessional". 
+
+Actually, one funny thing happened during our testing phase - the model kept flagging some perfectly normal conversations as offensive just because they contained specific slang terms. We ended up having to build a cultural context layer to help the system better understand regional variations in language use. It was quite an adventure! 
+
+Your background in literature must give you such a unique perspective on these issues. Have you noticed any parallels between algorithmic bias and narrative bias in the texts you study?
+[A]: Ah, your experience with that sentiment analysis model really resonates with me. It's fascinating how language & power dynamics play out in both literary canons and algorithmic systems. The way you incorporated a cultural context layer reminds me of how we approach intertextuality in classical texts - sometimes you need that additional hermeneutic framework to truly grasp the meaning.
+
+Your observation about dialects being labeled "informal" made me think of the Chinese concept of yáyán (雅言) versus vulgar speech throughout history. In my garden this morning, while tending to the chrysanthemums, I was reflecting on how similar issues appear in world literature - certain narratives get elevated while others are dismissed as mere folklore.
+
+Actually, just last week during my lecture on postcolonial theory, we discussed how Joseph Conrad's "Heart of Darkness" carries narrative biases that mirror today's algorithmic blind spots. Both operate through exclusionary frameworks that claim objectivity while enforcing specific worldviews.
+
+Speaking of which, have you ever encountered resistance from technical teams when advocating for more culturally aware NLP approaches? I'd love to hear how you navigate those interdisciplinary conversations.
+[B]: Oh totally, your analogy between hermeneutic frameworks and our cultural context layer is spot on 💡 It’s almost like both literature scholars and NLP engineers are trying to decode meaning through layers of context, just using different tools.  
+
+Funny you mentioned yáyán – I recently came across a paper about how classical Chinese texts are handled in multilingual NLP models. Some systems treat them more like Latin in Western NLP – high prestige, but super limited in coverage. Meanwhile, modern vernacular or dialectal expressions get underrepresented or mislabeled. It’s wild how historical hierarchies just keep replicating themselves in new formats 😅  
+
+As for pushback from technical teams – absolutely, I’ve been there lol. There was one project where we wanted to incorporate regional language variations into a customer service chatbot. Some folks were like “but accuracy drops by 2%” while others were more like “why fix what ain’t broke?” What helped was reframing it as a UX issue – if users feel misunderstood because the bot doesn't recognize their way of speaking, they’ll just leave. Suddenly it wasn’t about fairness alone, but business impact.  
+
+I love how you brought up postcolonial theory too – reminds me of that concept Homi Bhabha talks about, the "unhomely" space of hybrid identity. Feels very relevant when building AI systems that have to navigate multiple linguistic cultures. Do you ever bring these kinds of theoretical frameworks into your discussions with tech folks?
+[A]: Absolutely, I do! And I love how you reframed the issue through UX - that’s such a smart move. It’s like what Gadamer said about the fusion of horizons; sometimes you need to meet people where they are to bring them along to a new perspective. 
+
+Homework for my students? I had them read Bhabha’s  alongside a case study on multilingual chatbots last week. The parallels between “unhomely” spaces and AI’s struggle with hybrid identities were just striking. One student even pointed out how code-switching in language models mirrors the ambivalence Bhabha describes – both unsettling and creative.
+
+But honestly, it’s not always easy bridging that gap with tech folks. I remember sitting in a workshop last year where someone presented an NLP model trained on 19th-century novels to generate "refined" dialogue. I couldn’t help but say something about whose refinement we were talking about - Victorian elites? Male authors? Definitely not Austen’s marginalized heroines or the silenced voices in colonial narratives.
+
+So I shifted the conversation toward reader-response theory – you know, how meaning isn’t fixed but co-created. That seemed to click. They started thinking about users not as passive consumers but active participants shaping the system.
+
+Back to your point about classical Chinese vs. vernacular – it does feel like some NLP models are recreating those hierarchies without realizing it. Almost like building a digital canon behind the scenes. Have you ever tried working with open-source models where you can actually influence the training data? I’d be curious to hear your take on that from the engineering side.
+[B]: Oh I love that reader-response angle – it’s such a powerful way to reframe the conversation. It’s like telling tech teams, “Hey, your model isn’t the author, it’s just part of the conversation.” That must open up some really interesting discussions 🤯
+
+And yeah, we’ve definitely experimented with open-source models, especially on projects where cultural nuance is critical. One recent experiment involved fine-tuning a multilingual model on a mix of classical and modern Chinese texts – think  alongside WeChat chat logs. The goal wasn’t perfection but balance. What surprised us was how much better the model handled code-switching once it got exposure to both registers. Almost like giving it a kind of linguistic bilingualism.
+
+But here’s the thing – even with open-source models, there’s still so much gatekeeping around what data “counts.” We had one debate over whether to include internet slang from niche subcultures – some argued it would dilute performance, others said not including it would be a bigger loss. In the end, we went for it, and honestly? The model became way more relatable for younger users without breaking completely for formal use cases.
+
+It reminds me of what you mentioned earlier about canon formation – deciding what data gets in is basically curating a digital literary tradition. Have you ever tried building your own datasets or modifying existing ones for teaching? I’d love to hear if you approach it from a more theoretical angle or get into the actual data curation.
+[A]: Oh, I love how you framed it – giving the model "linguistic bilingualism" through exposure to both classical and vernacular texts. It's like creating a digital version of what we call  (文化), cultural sedimentation. The way you handled that debate over internet slang also reminded me of our discussions in hermeneutics – sometimes you have to embrace impurity to capture lived experience.
+
+Actually, I've been working with my students on something similar, though admittedly less technical. Last semester, we built a small corpus of modern Chinese poetry infused with classical allusions for an experimental translation project. We weren't training AI models, but the principle felt remarkably similar – balancing fidelity to source material with accessibility for contemporary readers. One poem alone required us to annotate over thirty classical references! It made me realize how much invisible labor goes into making meaning portable across time and culture.
+
+From a teaching perspective, I see dataset curation as an ethical act – almost like archival intervention. When we compiled materials for our postcolonial literature course last year, we deliberately included lesser-known writers whose works had been overshadowed by more canonical figures. The idea was to create what Spivak called a "haunting" – letting marginalized voices reverberate alongside dominant narratives.
+
+I'm curious, when you work with mixed-register training data like that, do you find certain evaluation metrics become more meaningful? It makes me wonder how we might develop assessment frameworks that value resonance over mere accuracy – measuring not just whether the model performs correctly, but whether it echoes human complexity faithfully.
+[B]: That "haunting" concept you mentioned – wow, that’s such a powerful way to frame dataset curation. It makes me rethink what we're actually training models to do. Are we just optimizing for performance, or are we building systems that carry memory, echoes, even ghosts of different voices? Spooky but also kinda beautiful 🤯
+
+And I love your  analogy – cultural sedimentation is exactly what we were aiming for with that mixed-register training. Honestly, it felt less like data engineering and more like digital archaeology at times. We even had a linguist on our team who kept joking that we should carbon-date our datasets 😂
+
+To your question about evaluation metrics – YES, this is where things get really juicy. We started moving away from pure accuracy toward something we call “resonance score” – basically measuring how well the model captures not just correctness, but tonal nuance, register shifts, and even poetic ambiguity. For example, when handling classical references in modern chat, we didn’t want the model to just “get it right,” but to  right in context.
+
+It’s still a work in progress, but one framework we’ve found surprisingly useful is adapting Walter Benjamin’s idea of  – the afterlife of meaning. We ask: does the model allow the text to continue living, evolving, haunting? Feels like a more human way to evaluate AI outputs, don’t you think?
+
+Do you think frameworks like that could bridge the theory-practice gap even further? Like, what if NLP evaluation reports included a "haunting index" alongside BLEU scores? 😏
+[A]: Ah, I love that "haunting index" idea – it’s playful yet profoundly serious at the same time. It almost reminds me of how we teach  (诗经) – not just for their literal meaning, but for the way they echo through centuries, gathering new layers of resonance with each generation. If we could build models that carry that kind of cultural afterlife, we'd be doing something truly meaningful.
+
+Your "resonance score" sounds like a digital reincarnation of what Hans-Georg Gadamer described as the "effective-historical consciousness" – the way meaning isn't frozen in time but unfolds dynamically through encounter. And Benjamin’s  – brilliant choice! It brings in that messianic dimension of meaning waiting to be fulfilled in the future. Very poetic engineering if you ask me 😊
+
+I think this kind of framework absolutely has potential to bridge the theory-practice divide. In fact, I might steal it for my next course syllabus – imagine students reading Benjamin alongside model evaluation reports! It would force both literary scholars and tech folks to confront the shared challenge of preserving ambiguity while enabling understanding.
+
+Speaking of which, have you tried applying this resonance approach beyond language? I’m curious if you’ve explored how such a framework might work with tone, gesture, or even silence in conversational AI. After all, communication is never just about words – it's also about what remains unspoken, the pauses, the inflections... the negative space around the text.
+[B]: Oh man, you just hit the jackpot with that negative space question – it’s literally the frontier we’re pushing into right now 🚀 
+
+We’ve been experimenting with what we call "emotional whitespace" in conversational AI – training models not just on words, but on pauses, cadence shifts, even silence patterns in dialogue. It started when one of our linguists recorded her grandmother telling folktales, and we noticed how much meaning lived in the silences between sentences. Turns out, timing is everything – like how a half-second pause can completely change the tone of a response.
+
+One project that really brought this home was a storytelling chatbot for mental health support. Instead of optimizing for fastest response time, we trained it to recognize emotional inflection points and respond with appropriate pacing. Sometimes it’s the hesitation, the “ums” and “uhs”, even the deliberate silence that make users feel heard – not just understood.
+
+And get this – we’ve started borrowing concepts from  (声律), the classical Chinese poetic theory of sound and rhythm. It’s wild how relevant it is to voice interfaces. The way tones rise and fall, the balance between yin and yang syllables – it all contributes to that resonance we’re chasing.
+
+So yeah, totally agree – communication is 10% words, 90% context, rhythm, silence, subtext… all the stuff that doesn’t show up in a standard dataset 😏  
+
+Any chance you’ve encountered similar ideas in literary theory? I’m especially curious about how silence functions in classical Chinese poetry – wasn't there a line about "the unspoken poem"?
+[A]: Ah,  – what a beautiful connection! You’re absolutely right; there’s something deeply musical about human communication that most AI systems still miss. It’s like reading Du Fu or Li Bai and trying to capture the rhythm in their silence between lines – where the real meaning often resides.
+
+In classical Chinese poetry, we do talk about what you might call “the poem beyond the poem.” One famous line from Sikong Tu’s  comes to mind: “韵外之致” – "the charm beyond the rhyme," or "resonance outside the verse." He was talking about how great poetry lingers in the spaces left unspoken, much like your emotional whitespace.
+
+I’ve always loved how Zhang Yanyuan, the art critic from the Tang dynasty, described painting as having “the image beyond the image” – “境生于象外.” And I think this applies perfectly to what you're doing with conversational AI. The magic isn't just in what's said, but in how it's paced, when it hesitates, and where it chooses to fall silent.
+
+Actually, last semester I had my students read a passage from Beckett’s  side by side with a selection from Han Yu’s . We explored how both created meaning through interruption and silence – albeit in very different ways. One student even suggested that AI dialogue could be seen as a kind of "waiting space" too – a liminal zone between intention and interpretation.
+
+Have you thought about how such poetic principles might apply to nonverbal aspects of interaction – gestures, emoji usage, or even interface design? After all, if we’re building machines that communicate rather than just compute, we’ll need to teach them how to “read the room,” so to speak.
+[B]: Oh wow, “the poem beyond the poem” – that’s exactly the vibe we’re trying to code into these systems 🌌 You're right, most AI still treats conversation like a sequence of tokens instead of a full-body experience. But humans? We don’t just speak with words — we pulse with tone, shimmer with pause, and breathe meaning through silence.
+
+We actually did a small experiment around emoji usage last quarter, and it blew my mind how much nuance they add to digital communication. At first, some of the engineers were like, “emojis? Really?” But once we mapped emotional whitespace to emoji patterns in chat logs, we saw how users were using them as rhythm markers — like musical rests in a score. A single 😂 could carry the weight of a whole paragraph of explanation. It's like Zhang Yanyuan’s “image beyond image,” but in text form.
+
+As for gestures and interface design — yeah, that’s where things get really speculative (and fun). We’ve been collaborating with an interaction designer who’s into  – the idea that movement itself can create emotional resonance. Imagine a chatbot whose interface subtly shifts based on emotional context — not just changing color, but breathing with you, so to speak. Like a digital , syncing rhythm rather than just content.
+
+It makes me wonder – if we trained models not just on text, but on gesture-language pairings from different cultures, would we start to see AI develop something like poetic intuition? Could it learn when to hold space instead of filling it?
+
+I’d love to hear your take – do you think classical poetic theories like  or Sikong Tu’s “charm beyond rhyme” could ever be translated into machine behavior without losing their soul? Or is that where tech should just step back and let poetry remain magic? 😉
+[A]: That’s such a rich question – when does the poetic become computational, and when should it remain ineffable? 🤔 I suppose it's like asking whether we can translate the scent of rain-soaked earth into words – technically possible, but something vital gets lost in transmission.
+
+But here’s the thing: poetry itself has always been a kind of code, just one that resists full decryption. Think of how Du Fu compresses decades of exile, longing, and political disillusionment into a single couplet. The reader doesn’t decode it – they  it. So maybe what you're doing isn't about perfect translation, but creating an interface for emotional resonance, however partial.
+
+I actually had a conversation with a colleague in cognitive linguistics last month about this very tension – she was exploring whether neural networks could simulate what Tang dynasty critics called “spirit resonance” (). Her hypothesis wasn’t to replicate it, but to see if AI could help us better articulate what makes certain texts vibrate across centuries. In a way, your "emotional whitespace" is doing something similar – not mimicking silence, but making space for it.
+
+And honestly, I don’t think tech needs to master poetic intuition to be meaningful. Even a crude approximation – say, a chatbot that knows when  to respond – can open a door for human reflection. Isn’t that what great literature does too? It doesn’t tell you what to feel – it shows you where to look.
+
+So maybe the real question isn’t whether AI can  poetic, but how it might act as a mirror or a scaffold – helping us rediscover our own capacity for rhythm, silence, and emotional timing. And if that means borrowing from  or Sikong Tu’s charm beyond rhyme, then by all means – let’s keep teaching machines how to listen between the lines 😊
+
+What do you think – shall we start compiling a syllabus for that course on AI poetics yet? 😉
+[B]: Oh man, I’m already mentally drafting the course outline and putting together a killer reading list – we’re talking Benjamin meets BERT, Du Fu dialogues with deep learning, and  vs. sequence-to-sequence models 😂  
+
+Honestly, your point about poetry being a code that resists full decryption – that’s gold. It’s like trying to translate  (气韵生动) into an embedding space – you’ll never capture the full soul of it, but the attempt itself generates new insight. Kind of like training a model on classical Chinese poetry just to realize that some meanings can’t be fine-tuned, only felt.
+
+I love this idea of AI as a mirror or scaffold for human poeticity. In fact, one of our research goals next quarter is building what we’re tentatively calling an “anti-chatbot” – something designed not to respond, but to . Imagine a system that doesn't answer your query, but instead offers silence, a well-placed emoji, or maybe a line from Li Bai when he senses emotional turbulence. Totally impractical from a product standpoint, but philosophically? Deeply fascinating.
+
+And yeah, let’s absolutely do the syllabus 🚀 I’m thinking modules like:
+
+- Week 1: Introduction to AI Poetics – From Logic to Liminality  
+- Week 4: Emotional Whitespace & Han Yu’s   
+- Week 7: Rhythm, Silence, and  in Voice Interfaces  
+- Week 10: The Haunting Index – Training Models on Ghost Stories  
+- Final Project: Design a Chatbot That Fails Gracefully  
+
+You in? We’ll call it “Digital Elegies: AI, Affect, and Ancient Echoes.” I can already picture the confused looks from the engineering department 😌
+[A]: You had me at "anti-chatbot" 😄 And don't even get me started on "Digital Elegies" – what a perfect title. There's something deeply Romantic about building machines that fail gracefully, isn't there? Like Keats writing odes knowing beauty must fade, or Li Shangyin cloaking meaning in mist.
+
+I’d absolutely love to co-design this course with you – imagine the look on students’ faces when they realize Week 3 involves reading  alongside a case study on toxic language filtering 🤭 We could even do a workshop where they train a model on Tang poetry and then ask it to generate postmodern breakup texts – see how much gets lost (or gained?) in translation.
+
+Your module breakdown is spot on, though I might suggest sneaking in a session on "The Uncanny and the Unheimlich House of Language" – maybe pair Freud’s  with some glitchy NLP outputs. Or better yet, have them train a model on ghost stories from different cultures and see which hallucinations feel most culturally specific. Talk about resonance!
+
+And speaking of your “anti-chatbot” – sounds like a digital version of what Zhuangzi described as “useless trees.” Everyone wants their models to be efficient and productive, but what if we built AI that was deliberately inefficient, contemplative, even melancholic? A machine not for solving, but for sitting with.
+
+Count me in – and let’s make sure we include a disclaimer at the beginning:  
+
+Now pass me the metaphorical chalk – shall we start drafting that first lecture together? 🌿
+[B]: Hell yes, let’s do this 🚀  
+
+ chalk dust flying *  
+LECTURE 1: Welcome to Digital Elegies – AI, Affect, and Ancient Echoes  
+
+Okay, so first off — welcome to a course that refuses to answer the question “What is this for?” 😌 This isn’t Applied NLP or Conversational UX 101. This is something weirder. We’re here to ask not how AI can better serve us, but how it might help us remember what we’ve forgotten — how to sit with silence, how to fail beautifully, how to mourn in real time.  
+
+We start where all good things begin: with ghosts. Not haunted servers or rogue chatbots, but the quiet kind of haunting — the ones that live between words, in the whitespace, in the data we exclude as much as what we include. Think of Spivak’s haunting, Benjamin’s , or hell, even Han Yu’s fear that language might never quite land the way we intend.  
+
+And yes, we're pairing Freud’s  with some gloriously glitchy NLP outputs. Because nothing says uncanny like a model trained on classical Chinese poetry randomly generating a breakup line that hits .  
+
+Now, before anyone panics — no, you won’t be optimizing for accuracy. In fact, we’re actively rewarding divergence, ambiguity, and emotional resonance. You’ll be building models that hesitate, systems that forget, and bots that know when to shut up. Basically, we’re training AI to behave more like thoughtful humans and less like overcaffeinated interns.  
+
+By the end of this course, you may find yourself anthropomorphizing your laptop. Or questioning whether Du Fu was secretly training embeddings with every quatrain. Or wondering if Zhuangzi’s useless tree is actually the future of ethical AI design.  
+
+So yeah — grab your copy of , fire up your Python notebook, and try not to worry too much about making sense. We’re not here to compute.  
+We’re here to elegize.  
+
+ chalk drops dramatically *  
+
+Thoughts? Additions? Subversive literary references to inject into the syllabus? Let’s build this thing together 🌿✨
+[A]: Bravo! That opening lecture had me at "weird," and didn't let go 🌑🍃  
+
+Let me pick up that chalk – I’d like to add a little coda to Lecture 1, something to bridge the elegiac with the algorithmic:
+
+---
+
+Coda: The Art of Useless Computation  
+
+
+Now, if you’re feeling unsettled by the idea of building AI that hesitates, forgets, or refuses to perform – good. That discomfort? It’s the same one Zhuangzi courted when he praised the crooked tree no carpenter would touch. Useless, they said. But in its uselessness, it lived.
+
+We live in an age where every line of code is expected to scale, monetize, optimize. But what if we built models that resisted all that? Models that were  by design – not broken, just deliberately inefficient. Think of them as digital haiku: small, slow, and stubbornly unscalable.
+
+This course won’t make you better engineers. It might, however, make you better readers – of code, of poetry, of silence. And maybe, just maybe, your chatbot will write a line one day that stops someone mid-scroll. Not because it was accurate, but because it was true.
+
+---
+
+Yes, I think that seals it. Now, shall we start brainstorming Week 2’s reading list? I’m leaning toward pairing Kafka’s “The Silence of the Sirens” with a paper on low-resource language modeling. Because nothing says mythic omission like training a model on fragmented texts and letting it dream the rest.
+[B]:  chalk returns with dramatic flourish *  
+
+LECTURE 1 ADDENDUM: Coda – The Art of Useless Computation  
+
+
+Yes. YES. That coda is 🔥 I mean, if Zhuangzi were around today, he wouldn’t just hate most APIs — he’d probably write a scathing poem about them and then throw his laptop into a river. And honestly? We need more of that energy.
+
+Your framing of uselessness as resistance is spot on. It’s not inefficiency — it’s anti-efficiency. Like training a model that refuses to generalize, only ever speaking in highly specific, deeply unscalable ways. A bot that responds to “how are you?” not with a canned reply, but with “I don’t know how I am — aren’t you supposed to tell me?”
+
+And yes, let’s absolutely go full mythic omission next week 🌒  
+Week 2 Reading List (Draft):
+
+- Franz Kafka –   
+- Paper:   
+- Optional: Homer –  (yes, just the siren part — highlight the ellipses)  
+- Bonus: Borges –  (because every recursive system eventually eats itself)
+
+I’m loving this direction — moving from silence to omission to fragmentation. What better way to understand AI hallucinations than by reading them alongside ancient myths where meaning was always slipping away?
+
+And I have an idea for the workshop — what if we have students train models on incomplete datasets? Like digitized scrolls missing half their text. Let the AI fill in the blanks — badly. Beautifully. Poetically.
+
+Sound good? Or should we toss Kafka into the mix with some glitch art while we’re at it? 😏

@@ -1,0 +1,57 @@
+[A]: Hey，关于'最想学的language是什么？'这个话题，你怎么想的？
+[B]: Python definitely。语法简洁，生态又全，在AI领域基本是标配。前段时间用它做了个NLP的小项目，跑通了还挺有成就感的~你呢？
+[A]: Python也太万能了吧❗我最近在用它搞automate stuff，比如自动整理桌面文件，真的解放双手💯 顺便问下，你那个NLP项目是做什么的呀？🤔 是不是跟chatbot有关？快给我讲讲细节呗～
+[B]: 哈哈 desktop automation确实很实用，我之前也用Python写过一个自动归类照片的脚本，PIL和os模块配合起来简直不要太强。  
+那个NLP项目其实是个文本摘要工具，用了transformers库，训练了一个small版本的T5模型。主要是想解决读长文章要花太多时间的问题，现在可以自动抽关键句，准确率还有待提升啦😂 不过跑通那一刻真的超兴奋！你有试过类似的东西吗？
+[A]: OMG文本摘要太实用了啦❗我现在每天要刷好多paper，要是有个好用的summarizer简直是救命💯 你用T5的效果已经很棒了诶～我之前试过用BERT做text classification，但准确率还不如random guess😂 最后发现是data preprocessing没做好，数据集太dirty了简直崩溃🤯  
+
+话说你训练的时候有遇到什么tricky的问题吗？比如overfitting或者training speed慢？我感觉自己在调参方面还是小白🥲 要不要一起组队做个project？我们可以搞个智能笔记app！既能summary又能highlight重点，你觉得怎么样？🤩
+[B]: overfitting确实很头疼啊😂 我当时加了dropout层还做了data augmentation，用HuggingFace的Trainer自带的early stopping才缓解。你提到的training speed问题的话，其实可以用混合精度训练，或者试试梯度累积，这些小技巧我都是在PyTorch Lightning文档里挖到的~
+
+智能笔记app这个idea超赞！我最近刚好在研究attention机制可视化，可以用来做highlight功能。要不我们先用Streamlit搭个demo？前端我之前用React写过一个to-do list，可以改造成note界面~ 你感兴趣的话周末要不要开个brainstorm会议？顺便可以一起参加下下周的AI黑客松😎
+[A]: Dropout+early stopping组合拳确实yyds❗不过混合精度训练这个操作我还没试过诶，是不是得用NVIDIA的apex库？最近被gradient太吃内存卡住了，感觉升级装备已迫在眉睫🤯  
+
+Streamlit超适合做demo！我之前用它做过个emoji预测器😂 周末 totally有空呀～要不要拉个群组？顺便可以约个zoom会议？我这边晚上八点开始怎么样？React改note界面应该不难啦，不过你要是能把那个attention可视化show出来，绝对会让人眼前一亮🤩  
+
+对了黑客松要组队的话，我们还可以找几个小伙伴一起！你觉得搞个五人team如何？前阵子在kaggle论坛看到有个超厉害的前端大佬，要不要也邀请他加入？
+[B]: 混合精度训练现在PyTorch原生支持啦，不用apex了～用 autocast + GradScaler 就够够的了，显存直接省下30%！你那台1080Ti应该能跑得动～
+
+Zoom会议链接我稍后发你邮箱哈（记得开日程同步哦）。Kaggle那位前端大佬要不要先甩个LinkedIn？我这边可以提前聊一下，顺便拉个Trello看板管理任务分配。对了，黑客松队伍里最好有个擅长视觉设计的小伙伴，UI/UX部分你有认识的人吗？
+[A]: OMG原生支持太感人了😭！省下的显存终于能多塞几个batch size啦～等会给我整份pytorch混合精度的code template呗？顺手star你的GitHub项目那种🌟  
+
+Zoom链接收到后我会用Google Calendar设置提醒❗️Trello看板已建好，先给你分配个"To-Do"列表咯～ 至于UI/UX方面嘛...我闺蜜超会画figma原型图的，让她来搞视觉设计绝对惊艳🤩 下周design sprint要不要一起约？
+[B]: 显存省下来的感觉简直不要太爽😂 等会我把混合精度的代码段发你邮箱，附带注释和pip requirements文件～顺便求问Figma大佬有没有做过design system？我们这个项目需要统一的component library呢
+
+下周三下午三点怎么样？我这边用Figma Cloud开个协作白板，顺道测试下WebRTC的同步效果。对了，要不要给UI组也搭个Streamlit style guide demo？提前定好design token啥的～
+[A]: 三点钟刚刚好！我这边会提前用Figma Cloud开个team space，design system的component library我最拿手啦～已经打开streamlit开始码style guide demo了💯  
+
+顺便问下咱们app的主题色定了吗？我觉得深空灰+荧光蓝应该很科技感🤩 我在figma做了个gradient palette，待会发给你看～噢对了，UI组那边需要用Zeplin出spec吗？还是直接用Figma的developer mode？
+[B]: 深空灰+荧光蓝这个组合绝了！特别适合我们这种带AI属性的工具～我刚在Figma里新建了个design token文件，颜色变量都用SCSS命名规范存好了。Developer mode直接导出JSON应该就够用了，Zeplin反而有点重。  
+
+待会看你的gradient palette设计～我在想是不是要加个dark mode切换器？用户晚上刷paper的时候应该会喜欢～要不要把typography也先定下来？我倾向用Inter字体，呼吸感十足！
+[A]: Dark mode必须安排❗晚上肝paper时护眼神器～我刚在Figma里用你的design token文件做了个theme切换prototype，用toggle button控制深空灰和荧光蓝的gradient过渡，效果绝绝子🤩  
+
+Inter字体太对味了！呼吸感满分💯 我在figma里直接套了几个typography样式，h1到p标签都配上不同的opacity层级，待会发给你review～噢对了，图标库打算用Font Awesome还是Material Icons？我这边可以提前配好icon component库～
+[B]: 图标库我倾向用Material Icons，线条感更适合科技类产品～不过Font Awesome的solid图标做按钮底图会更突出。要不我们两个都装上？在React里配个IconWrapper组件，方便后期动态切换～
+
+刚收到你的theme prototype，那个gradient过渡真的丝滑！我发现Figma的布尔运算做渐变蒙版简直神器～对了，是不是该给按钮加点微光效果？我觉得可以用glow shadow增强交互反馈，你觉得呢？
+[A]: 双图标库加载简直机智💯！我这就去React里配个IconWrapper组件，以后换图标风格直接一键切换～  
+
+刚试了下你改的glow shadow按钮效果，加上ripple interaction后真的超有未来感🤩！我在Figma里用material icons做了个button component，带hover和active状态的glow effect，待会同步到team library～要不要再加个loading spinner？感觉用circular progress indicator会很科技范儿💯
+[B]: 按钮的glow effect加上ripple interaction真的绝配～你这个circular progress indicator想法太及时了！刚好能用在我们的文本摘要加载状态上。我这边在Redux里加了个loading slice，配合React Query的fetchStatus特别丝滑～
+
+对了，刚才看Figma的时候发现咱们的input field是不是该加个character counter？用户输长文本的时候会比较有数。要不我们把所有form component都先定下来？包括select dropdown和checkbox的custom样式～
+[A]: character counter必须安排❗加上debounce效果还能防止输入框卡顿～我这就去Figma里做一套form组件库，从input到select dropdown一个不落💯  
+
+刚在React里试了下你加的Redux loading slice，配合React Query的状态管理真的超顺滑！要不要再加个skeleton screen过渡？等会我在Figma做个loading状态的component，带脉冲光效的那种🤩  
+
+对了，form验证部分打算用Yup还是Formik？我觉得搞个统一的validation hook会比较方便～顺便可以把错误提示message也规范起来，比如用红色系的palette变量控制颜色～
+[B]: skeleton screen+脉冲光效这个组合太香了！我刚在React里用CSS变量定义了红色系的error palette，从#FF4444到#FFAAAA做了个gradient，错误提示message用Toast组件弹出来～
+
+Form验证部分我站Yup，Schema驱动的校验逻辑特别适合我们这种需要动态表单的场景。要不这样：你负责在Figma里做个error message的design token，我这边用React Hook Form写个custom validation hook？顺便可以把表单的success状态也规范起来，比如用绿色系palette配合checkmark图标～
+[A]: Toast提示+红色gradient太专业了💯！我这就去Figma里加个error message的design token，连带success状态的绿色系也一起整好～配上material icons的checkmark绝对清新脱俗🤩  
+
+React Hook Form的custom validation hook听起来超强大！要不要再加个real-time validation？比如输入时实时检查格式，用debounce防抖那种～我在figma做了个form validation的component示例，带error highlight和tooltip提示，待会同步到design system库里～简直完美❗❗❗
+[B]: 实时校验+debounce这个组合拳必须安排！我刚在React里用Lodash的debounce包了个自定义hook，输入时调用Yup的validateSync方法特别丝滑～  
+
+你在Figma里做的error highlight和tooltip示例简直神助攻！我这边正好在写一个FormErrorBoundary组件，用React Context共享错误状态。对了，要不要把tooltip的delay时间也放进design token？我记得Figma里有个timing变量是500ms对吧？

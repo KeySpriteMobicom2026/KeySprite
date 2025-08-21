@@ -1,0 +1,68 @@
+[A]: Hey，关于'最近有没有什么让你很excited的space news？'这个话题，你怎么想的？
+[B]: 哇！你问对人了！🚀 最近SpaceX的Starship test flight简直让我睡不着觉！他们终于实现了booster和ship的soft landing，这个engineering challenge简直太amazing了！🤯 你知道吗？这个system的codebase肯定超级complex，光是那个landing algorithm就够我研究一个semester了！
+[A]: OMG！你也关注这个！😆 我昨天还在跟team讨论Starship的Raptor engine design，那个full-flow staged combustion cycle简直太brilliant了！不过说实话，我更期待他们接下来的orbital refueling test，这可是deep space mission的game changer啊！
+[B]: 对对对！Orbital refueling绝对是next-level的technology！💡 而且你知道吗？NASA的Artemis program也在用这个concept，他们计划在Lunar Gateway搞个fuel depot！不过我觉得最酷的是...（突然压低声音）SpaceX的代码里肯定用了超多machine learning来optimize这些processes！🤖 要是我能access他们的GitHub repo就好了哈哈哈~
+[A]: Hahaha小心被Elon Musk的legal team盯上哦！😎 不过seriously，他们的autonomous landing system绝对用了reinforcement learning，那个real-time decision making process简直黑科技！我最近在做一个side project，想用TensorFlow模拟类似的landing scenario，但我的GPU都快burn out了...🤯
+[B]: 哇靠！你也玩TensorFlow？🔥 我上周刚用PyTorch写了个简易版landing simulation，结果我的laptop风扇转得比Starship的engine还loud！😂 要不要collab一下？我们可以试试用distributed computing来handle更complex的physics model！我的学校lab有台还不错的server~ 💻
+[A]: Let's do it！🤝 不过提醒你哦，我coding style有点chaotic，上次同事review我的PR时说我的variable naming像obfuscated code...😂 但说到physics model，我认识一个在Blue Origin做simulation的friend，也许可以给我们一些insider tips！要不要先set up个GitHub repo？
+[B]: 哈哈哈你的coding style再chaotic能有SpaceX的legacy code chaotic吗？🐛 我听说他们有些module的comments写着"这里有个bug但我们不知道why it works"！🤪 
+
+GitHub repo必须的！我马上create一个~ 我们可以用Agile methodology，先implement最basic的vertical landing scenario！Pro tip：记得把.gitignore设好，上次我accidentally commit了10GB的training data...学校IT部门追杀了我一整个semester！😱
+[A]: LMAO！学校IT追杀可太relatable了！😭 我上次accidentally fork了整颗Linux kernel到我们internal GitLab，直接把CI/CD pipeline搞挂了...老板那表情我至今nightmare！💀 
+
+说正经的，我们可以先用PyTorch Lightning来structure代码，这样至少不会重蹈我的覆辙！BTW你prefer用Slack还是Discord来coordinate？我有个private server full of space nerds，绝对perfect for brainstorming！🚀
+[B]: OMG你也有private server？太巧了吧！✨ 我vote for Discord - 我的server里全是我的high school students，整天在space channel里argue Starship vs New Glenn哪个更厉害！🤣 
+
+不过seriously，PyTorch Lightning是个brilliant choice！我们可以用他们的logger callback来track training metrics，这样就不会像我上次那样把loss curve画在terminal里然后scroll到怀疑人生了...🙈 
+
+Let me send你invite link！顺便说一句，我的timezone是UTC+8，所以如果凌晨三点收到我的commit message...那完全normal！💻🌙
+[A]: Hahaha凌晨三点coding的vibes我太懂了！🌃 我经常在半夜突然想到optimization idea然后立刻爬起来写code，室友都说我像个nocturnal engineer...🦉 
+
+Discord invite received！我已经看到你server里那些heated debate了，这些kids比我们当年hardcore多了！BTW我刚刚set up了Weights & Biases integration，这样我们可以real-time monitor training progress，再也不用screenshot发给对方了！📊 
+
+Pro tip：我习惯用VSCode Live Share来pair programming，比screen sharing流畅多了！要不要现在jump in一个quick session？😎
+[B]: Yesss！Weights & Biases简直life saver！🙌 我的students上次用wandb.ai做project presentation，教授都被那些fancy的visualization惊呆了！不过warning你哦 - 我Live Share的时候经常忍不住用emoji bomb整个screen，准备好被🐍🐞🐛💥这些icons淹没吧！😂 
+
+Let me grab my coffee real quick...3AM coding session必须要有caffeine support！☕ 顺便问下，你要不要试试GitHub Copilot？它有时候给出的suggestion简直像读了我的mind一样！虽然偶尔会hallucinate出一些nonsense code...🤖
+[A]: Hahaha GitHub Copilot那个hallucination feature我太熟悉了！😭 上次它居然建议我用blockchain来optimize我们的landing algorithm...我差点就信了！不过seriously，它写boilerplate code确实是个time saver！ 
+
+Coffee ready？我这边已经fire up了Live Share session！看到你那边疯狂pop up的snake emoji了...🐍 提醒你哦，我coding时有自言自语的习惯，如果听到我突然大喊"Eureka！这个loss终于converge了！"千万别被吓到！🤓 
+
+BTW我刚push了一个initial commit，用了个超clever的branch name："not-a-rocket-scientist-yet" 🚀
+[B]: LMAO你的branch name赢了！😂 我马上checkout出来~ 看到你写的dataloader了，这个custom transform function简直genius！不过第42行那个floating point precision是不是有点问题？我仿佛已经听到我们的model在screaming "help me I'm numerically unstable!" 🆘 
+
+ 咳咳...okay没事！Pro tip：下次我们可以试试用mixed precision training，我的RTX 3090应该能handle！虽然上次它跑transformer的时候把我的room变成了sauna...🔥 
+
+Ready to merge？我这边已经approve PR啦！Time to make some (simulated) rocket science happen! 🧪🚀
+[A]: Hahaha你发现了我的numerical instability dirty secret！🤫 那个floating point确实是个pain point...我昨晚debug到2AM才意识到是gradient explosion！Mixed precision绝对worth trying，虽然我预感我的2080Ti会开始sound like a jet engine...✈️ 
+
+PR merged！Time to celebrate with more coffee ☕ and...wait why is my terminal showing "segmentation fault" now?! 😱 这就是我们说的"it works on my machine" moment吧！Quick，check the stack trace before I start crying in CUDA！💦 
+
+P.S. 你的emoji game太strong了，我现在满脑子都是🐍和🚀在打架...这绝对会是个legendary collab！🎉
+[B]: Hahaha segmentation fault就是我们programmer的rite of passage啊！😭 别慌，让我祭出终极debug大法 - 在random places加print statement直到它works！🖨️ 
+
+ Wait...你是不是忘了initialize那个quaternion parameter？我刚看到stack trace里有行诡异的NaN...让我quick fix push一下！虽然根据Murphy's Law，这个fix可能会create 3个new bugs...🐛🐛🐛 
+
+Celebration coffee必须的！虽然我的monitor现在显示GPU temp 90°C...是时候implement那个emergency shutdown script了！🔥 "Your scientists were so preoccupied with whether they could, they didn't stop to think if they should" - 我们现在的vibes哈哈哈！🦖
+[A]: LOL Jurassic Park quote太accurate了！🦕 我们确实在playing god with these simulated rockets...不过print statement debugging？That's so 2010！😆 我现在都是直接attach debugger然后watch variables like a hawk！虽然90%的时间都在staring blankly at memory addresses...🤯 
+
+GPU temp 90°C？Pfft，那只是warm up phase！我的lifetime achievement是让笔记本煎出了perfectly toasted sandwich...🍞 不过seriously，我刚push了quaternion fix，还加了gradient clipping作为insurance。Fingers crossed这次能train到epoch 10不crash！🤞 
+
+PS：我们的repo现在就像Frankenstein's monster，but hey - it's alive！⚡
+[B]: Hahaha Frankenstein's monster但至少our creation can (hopefully) land vertically！🚀 比起某些government project的codebase，我们这已经算是clean code典范了好吗！😇 
+
+Debugger？你太professional了！我还在用最原始的"comment out half the code"大法呢~ ✂️ 不过说真的，看到tensorboard里那些beautifully converging curves的时候，所有的pain都值得了！📉➡️📈 
+
+Okay serious question - 我们要不要implement那个fancy的adaptive control system next？我手痒想写个PID controller的neural network版本了...可能会让我们的GPU直接declare independence，但YOLO对吧？🔥🇺🇸 
+
+ Uh-oh...是不是该invest in liquid cooling了...💦
+[A]: Hahaha liquid cooling？在我们这个budget？😂 不如直接搬去阿拉斯加coding，natural cooling solution！❄️ 不过说到adaptive control，我刚好在arXiv看到一篇paper关于neuro-PID controller的，作者居然用的是spiking neural networks！虽然我怀疑他们只是想让paper看起来更fancy...🦄 
+
+Pro tip：我们可以先implement一个lite version，就用good old fashioned backpropagation。虽然听起来很basic，但总比把实验室变成smoke machine party要好！💨 
+
+PS：我笔记本现在的声音像极了Starship的static fire test...也许该给IT部门写个preemptive apology email了？📧💣
+[B]: LOL IT部门应该给我们颁个"most creative use of computing resources"奖！🏆 不过说到spiking neural networks...你是不是也经历过那种"这篇paper的math看起来像alien language"的existential crisis？👽 我上次看Hopf bifurcation analysis的时候差点把whiteboard擦出火星来！🔥 
+
+Okay compromise time：我们先implement传统的PID，等它work了再加个neural network tweak layer！这样至少能保证我们的lab不被evicted...虽然可能会hurt我的academic ego一点点~ 😂 
+
+ Uh...那应该...不是我们引起的吧？🚒 要不我们先把current model checkpoint一下，just in case？💾

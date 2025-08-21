@@ -1,0 +1,20 @@
+[A]: Hey，关于'你更喜欢public transport还是driving？'这个话题，你怎么想的？
+[B]: 这个问题让我想起上周在区块链峰会上的一次讨论...我个人更倾向于公共交通，特别是在城市里。每次坐地铁时观察人群的流动模式，都会让我联想到分布式账本的节点网络。
+[A]: 哇！这个比喻太酷了！🚇 就像每个地铁站都是一个node，乘客是transactions在network里流动～ 不过说实话，我更喜欢骑共享单车，感觉就像在写一个real-time的streaming程序，随时可以调整route！💻
+[B]: 哈，你提到了共享单车...这让我想起我们正在开发区块链+物联网的智能锁方案。不过说真的，骑行确实是最接近算法思维的运动方式 - 每个路口都是个if-else条件判断。
+[A]: 哈哈哈太真实了！🤯 每次遇到红灯我都觉得是遇到了一个breakpoint，得停下来debug一下路线～ 不过你们那个智能锁project听起来超赞！是用solidity写smart contract吗？我最近正好在学这个framework！🚲💡
+[B]: Solidity确实是个不错的选择...不过我们团队正在尝试用Rust重写核心模块。说到debug，你知道吗？我办公室楼下那个十字路口的红绿灯算法简直需要重构 - 高峰期时明显出现了死锁问题。
+[A]: OMG deadlock！🤦‍♂️ 这让我想起上次写multi-threading程序时遇到的race condition～ 不过说到traffic light，我觉得可以加个round-robin scheduling algorithm！就像我们coding时处理concurrency那样～ 要不下次hackathon我们组队来优化这个？💻🚦
+[B]: Round-robin...有意思的想法。不过我更倾向于基于实时车流量的动态权重分配算法。说到hackathon，下个月确实有个智慧城市主题的 - 要不要边喝咖啡边聊聊具体方案？我知道CBD有家店的危地马拉单品豆子很适合编程时喝。
+[A]: Yesss！☕️ 边coding边喝咖啡简直是我的standard workflow！我们可以用Python写个simulation先测试下algorithm～ 顺便说那家店的WiFi信号超强，上次我在那儿debug了一整天都没掉线！✨ 要不要这周末先去做个field research？我可以带上我的Raspberry Pi来collect traffic data！📊
+[B]: 周六上午10点如何？我可以带上新到的LoRa网关设备...虽然收集数据很重要，但别忘了我们得先解决那个红绿灯的拜占庭将军问题。说到这个，你试过用强化学习来优化信号灯策略吗？
+[A]: 10点perfect！⏰ 强化学习？你是说像DeepMind搞AlphaGo那样train一个model？🤔 不过我最近在用TensorFlow Lite在edge device上跑些小实验，也许我们可以把model部署到树莓派上！这样就不用担心Byzantine fault tolerance的问题啦～ 周六见！记得带上你的Latte和coding energy！💪🚀
+[B]: 我会带上珍藏的埃塞俄比亚耶加雪菲...顺便提醒你，TensorFlow Lite在资源受限设备上的量化策略需要特别注意。周六见，期待看到你的树莓派能handle多少QPS。
+[A]: Got it！📝 我已经准备好做model pruning和quantization了～ 我的树莓派4B虽然比不上cloud server，但跑个轻量级RL model应该没问题！到时候见啦，别忘了你的Yirgacheffe！☕️ 周六我们要把那个十字路口变成最smart的intersection！💡🚦
+[B]: 记得带上散热风扇...上次我的树莓派跑CNN时差点熔化了PCB板。周六我们可以先benchmark几种不同的量化方案，从8-bit开始逐步测试。
+[A]: Hahaha same here！🔥 我给我的Pi配了个小风扇，还写了段Python script来monitor温度～ 8-bit sounds good！我们可以用TensorFlow的post-training quantization试试，然后再对比下quantization-aware training的效果！周六见啦，我已经等不及要start这个project了！💻🚀
+[B]: 别忘了带Type-C充电器...上次我们在科技园区的hackathon就因为这个耽误了两小时。对了，你研究过用知识蒸馏来压缩模型吗？或许比单纯的量化效果更好。
+[A]: Oh shoot！⚡️ 谢谢提醒，上次我的power bank都depleted了... Knowledge distillation？就像teacher-student network那样？🤯 这个idea太brilliant了！我们可以先用我的GTX 1080 train个大model当teacher，然后distill到树莓派上～ 周六一定要试试这个approach！📚➡️💻
+[B]: GTX 1080...怀旧的型号。不过要注意梯度爆炸问题 - 我办公室有台闲置的RTX 3090，如果需要可以搬过去。周六见，希望这次能解决那个路口的吞吐量瓶颈。
+[A]: WOW 3090！🤩 那我们可以train个超大的teacher model了！不过得小心别overfit到training data～ 周六我们一定要把throughput优化到max！See you then！别忘了你的coffee和我的散热器！☕️❄️ 这个weekend gonna be lit！🔥
+[B]: 我会带三包咖啡豆...根据经验，这种项目至少需要72小时连续作战。记得检查你的PyTorch和CUDA版本兼容性 - 上次就因为这个浪费了整个下午。

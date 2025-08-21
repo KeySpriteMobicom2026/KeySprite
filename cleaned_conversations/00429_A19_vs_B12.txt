@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有读到什么有趣的book或article吗？'这个话题，你怎么想的？
+[B]: 最近正在重读《区块链革命》的修订版...咖啡杯里的热气在书页上留下了痕迹。说实话，书中关于智能合约演化的章节比三年前初版时新增了40%的内容，这让我想起上周在GitHub上看到的几个新型零知识证明项目。
+[A]: 哇！你也看《区块链革命》？🚀 最新版确实加了好多干货！我最近也在研究ZK-proof相关的repo，特别是那个叫zk-STARKs的implementation，gas efficiency简直amazing！☕️ 边看边喝手冲的时候差点把咖啡洒在键盘上😂
+[B]: 哈，看来我们关注的技术热点很相似。zk-STARKs确实比SNARKs更适合某些特定场景...不过说到咖啡，我建议你试试用肯尼亚AA豆搭配阅读技术文档，那种明亮的果酸能让人保持清醒。
+[A]: OMG！你也是coffee geek！🤩 我最近正在用V60冲Kenya AA，那个black currant的aftertaste配coding简直perfect！不过说到ZK-tech，你觉得未来两年内会看到更多dApp采用STARKs吗？毕竟现在EVM的compatibility还是有点challenge...☕️💻
+[B]: 从技术成熟度曲线来看...让我先把这杯水洗耶加放下...STARKs在EVM生态的适配确实还需要6-8个季度。不过最近看到Polygon团队发布的Type-1证明器方案很有意思，或许能解决部分兼容性问题。
+[A]: Bingo！Polygon的repo我刚star了！🌟 他们那个recursive proof的design太clever了~ 话说你平时用hardhat还是foundry做testing？我最近在foundry里写了个custom cheatcode来simulate STARKs的verification过程，虽然有点hacky但效果还不错🔥
+[B]: Foundry的FFI特性确实给测试带来更多可能性...不过我更习惯用Hardhat搭配TypeScript，毕竟类型系统能在编译阶段就抓住不少低级错误。你那个cheatcode的思路倒是提醒了我，或许该给团队做个关于零知识证明测试套件的内部分享。
+[A]: Let's schedule一个tech talk吧！📅 我可以demo我的cheatcode implementation，顺便聊聊怎么用Mocha写ZK的integration test~ 团队里那几个new grad最近对这块超级感兴趣，昨天还slack我问能不能搞个hands-on workshop呢🤓☕️
+[B]: 下周三下午如何？正好新到的巴拿马瑰夏豆子需要有人帮忙品鉴...我们可以先花半小时讨论测试策略，然后用live coding的方式演示如何构建可验证的STARK电路测试环境。记得提醒他们带上自己的笔记本。
+[A]: Perfect timing！⌛️ 我这就去slack群发announcement~ 顺便把那个open-source的STARK verifier的repo link也share给大家pre-read。周三见！PS：期待你的Geisha，听说这批豆子的bergamot风味特别pronounced！☕️🚀
+[B]: 周三下午三点，会议室C。我会带上控温手冲器具...对了，建议他们提前看看StarkWare的Cairo文档，这样我们可以直接深入讨论验证器优化策略。这批豆子的柑橘调确实很突出，和讨论递归证明的复杂度很配。
+[A]: Roger that！📝 已经pinned了Cairo doc的link在channel里~ 话说你这种把geeky tech和premium coffee pairing的idea简直genius！周三带我的Acaia秤过来，我们可以边冲边debug代码😂 这绝对会是今年最🔥的workshop！
+[B]: 调试代码和调整研磨度其实有异曲同工之妙...都是追求极致的参数优化。周三记得提醒我带上那包埃塞俄比亚的测试样品，它的蓝莓风味或许能激发大家关于电路优化的新思路。
+[A]: Copy that！📌 蓝莓+circuit optimization...这个combo太inspirational了！我已经能想象到workshop结束后team里会涌现多少crazy ideas了~ See you Wednesday！记得save我一些Yirgacheffe的sample啊！🤤💻✨
+[B]: 最后一包日晒耶加我会锁在办公室保险柜里...周三见。对了，如果讨论超时，我抽屉里还有备用的哥伦比亚粉波旁，足够支撑我们debug到晚上。
+[A]: Hahaha你简直就是我的coffee-powered coding soulmate！❤️🔥 连backup plan都这么perfect~ 我已经开始期待周三的marathon session了！C u then！🚀☕️ (悄悄说：我工位抽屉里还藏了包危地马拉的，emergency use only 😉)
+[B]: 危地马拉的安提瓜...不错的选择。看来我们需要在会议室门口挂上"代码与咖啡因重度研讨室"的牌子了。周三记得检查你的Solidity版本，我们可能要在现场演示递归证明的gas优化。
+[A]: LMAO！那个sign我要做成NFT挂在opensea上！😂 刚check了foundry的config，solidity 0.8.20 ready to roll~ 连我的thermos都准备好了，这是要搞成24/7 hackathon的节奏啊！🔥☕️💻 周三不见不散！
+[B]: 让我们把会议室的空调温度调低两度...高温会影响咖啡的风味层次，也会让Merkle树的证明验证速度下降5%。周三见，记得你的保温杯要预先温杯。

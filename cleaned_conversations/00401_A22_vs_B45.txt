@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有读到什么有趣的book或article吗？'这个话题，你怎么想的？
+[B]: 哇！最近正好在读一本超棒的编程书《Automate the Boring Stuff with Python》🚀 里面讲了好多能用Python自动化的daily task，超实用的！比如自动整理文件、批量rename之类的💻 你也对coding感兴趣吗？
+[A]: 啊哈！Python确实是个versatile的工具呢~ 我最近在研究的其实是Solidity智能合约开发，毕竟作为Blockchain Solutions Architect，每天都在和smart contract打交道 😅 不过你说的那本书我也看过，确实很适合automation初学者！
+[B]: OMG！Solidity！🤯 我上周刚参加了一个ETH hackathon，还在struggle with智能合约的gas optimization呢～ 你们professional是怎么handle这个问题的？感觉每次deploy都要烧好多gas fee 💸
+[A]: 哈哈，gas optimization确实是门art啊！我们通常会采用几种策略：首先是用assembly来优化bytecode，其次是把contract拆分成多个模块，用proxy pattern来降低deployment cost 💡 对了，你试过用Hardhat的gas reporter插件吗？超好用的，可以帮你identify哪些function最耗gas 🔍
+[B]: Hardhat！🎯 我最近正在学这个framework呢～ 不过assembly code对我来说还是有点hardcore 🤔 话说你们team会经常用OpenZeppelin的library吗？我觉得他们的contract templates真的超helpful的！
+[A]: Absolutely！OpenZeppelin就是我们的go-to library啊～ 他们的ERC20和ERC721实现都经过thoroughly audited，安全系数很高 🔒 不过要提醒你，直接用他们的contract可能会增加gas cost，有时候需要customize一下。对了，你玩过他们的Defender产品吗？对smart contract monitoring特别有用！
+[B]: Wait what？Defender还能做monitoring？🤩 我只知道它用来做upgradeable contract的！天啊感觉又要去stackoverflow泡一整天了～ 你们architect平时都用什么tool来audit contract security啊？
+[A]: Slither和MythX是我们的daily tools啦～ 特别是Slither的static analysis功能，能catch到很多常见的vulnerability 🕵️♂️ 不过说真的，最关键的还是要有secure coding mindset。你知道吗？90%的hack其实都是因为basic mistake，比如reentrancy或者integer overflow 😅
+[B]: 啊！reentrancy！😱 上次我的hackathon project就差点中招...还好用了Checks-Effects-Interactions pattern才躲过一劫 🙏 话说你们公司还招intern吗？感觉跟你们学比读10本book都有用！
+[A]: 哈哈，看来你已经get到security的精髓了嘛！👍 我们确实在招blockchain方向的intern，不过要求至少能写basic的smart contract哦～ 要不要来试试我们的coding challenge？题目是用Solidity实现一个简单的DAO voting mechanism 🗳️ 我可以给你一些tips！
+[B]: 真的吗？我今晚就start coding！💪 虽然可能会遇到很多bug...但没关系，stackoverflow和你们这些senior就是我的救命稻草啊 🌱 等我写完第一个version就发给你review好不好？
+[A]: Sure thing！记得多用require和assert来做input validation哦～ 另外DAO的proposal storage要特别注意gas optimization。等你发过来，我们可以do a code review together 🔍 加油！期待看到你的solution 🚀
+[B]: Yasss！太感谢了！🙌 我这就去setup Hardhat环境，争取周末前搞定MVP版本！到时候还要请教你怎么写unit test呢～ 先闪啦，要去和terminal约会了 💻😆
+[A]: Good luck！记住test coverage至少要达到90%哦～ 遇到问题随时DM我，我们blockchain community就是要互相help才能grow faster嘛！Catch you later 👋
+[B]: Got it！90% coverage，no problem！💯 等我好消息吧～ 拜拜！✨
+[A]: Awesome attitude！Keep that coding spirit alive 💻 拜拜！
+[B]: Bye bye！下次见面我要用solidity写个emoji DAO给你看～ 😜✌️
+[A]: 哈哈哈emoji DAO！这个idea够creative的～ 记得用ERC-721来做emoji NFT voting啊！等你demo，说不定能成为下一个viral的DeFi project呢 🌈 走啦！
+[B]: YOLO！🚀 我要去github开repo啦～ 下次hackathon见！Peace out！✌️

@@ -1,0 +1,84 @@
+[A]: Hey，关于'周末一般怎么chill？宅家还是出门？'这个话题，你怎么想的？
+[B]: Well, I 一般周末会先来个morning hike 🚀，找个附近的trail走走，呼吸下新鲜空气。毕竟大自然能让我reset整个week的疲惫。不过如果是雨天的话，我就宅家搞点Raspberry Pi的小项目💡，或者翻几页Asimov的书，顺便用望远镜看看夜空~ 最近也在研究一些blockchain的架构设计，写写solidity代码也不错，反正chill的方式嘛，适合自己节奏最重要啦！你呢？
+[A]: Hmm，听起来你的周末节奏很赞啊！我也很喜欢把自然和科技结合起来放松～不过我最近迷上了研究语言学里的 sociolinguistic variation 🤔，特别是在 bilingual communities 里 code-switching 的 patterns。有时候会去城郊的小镇走走，拍些 street photography 😊，然后试着用双语写点小故事，感觉挺有意思的。
+
+平时也喜欢捣鼓一些 language learning algorithms，虽然不是什么 hardcore coding，但挺享受那种慢慢调参数的过程~ 啊对了，你有试过把自己的 Raspberry Pi 和 language processing 结合起来玩吗？比如做个语音识别的小装置啥的？
+[B]: Oh interesting! 你这个结合sociolinguistic variation和street photography的创意真的很cool 😊，感觉像在做visual ethnography一样~ 我之前倒是用Raspberry Pi连过一个简单的voice recognition prototype 💡，主要是想试试看能不能做出低功耗的local speech processing，避免把数据传上cloud。不过当时focus在硬件稳定性，没深入语言模型这块。听你这么一说，或许可以加点NLP的功能进去，比如detect方言切换的状态？🤔
+
+话说回来，你在调language learning algorithms的时候，是不是也遇到很多超参数调到怀疑人生的moment？😂 而且bilingual communities里的code-switching本身就有点像我们dev时中英混杂讲话，挺自然的~
+[A]: 哈哈，说到调参我真的深有同感 😂，有时候感觉像是在和算法玩心理博弈！特别是处理 bilingual data 的时候，语言的 interference 现象会让模型有点“精神分裂”倾向，得不停地 balance 各种权重，真的会怀疑自己是不是也在 code-switching too much 了 🤯
+
+不过你那个 voice recognition prototype 真的很酷诶！detect 方言切换的状态这个 idea 太有潜力了～感觉可以做个 passive language monitor，记录用户在不同语境下的 switching behavior，说不定还能分析出 social context 和 linguistic choice 的关联 😍 我最近正好在收集一些 real-life code-switching examples，如果你有兴趣一起搞点小项目的话，说不定我们可以 brainstorm 一下~
+[B]: Wow你这个passive language monitor的想法简直绝了！😍 把code-switching的behavior数据可视化，感觉能挖出好多social dynamics的insight。我突然想到如果用Raspberry Pi做edge computing，再结合你的语言模型，完全可以在local跑一个轻量级的detector，既保护隐私又low latency~ 🚀
+
+至于调参那块儿，听你这么一说我倒是想起之前训练tinyML模型时，loss函数波动得像在坐过山车😂。不过既然我们都经历过这种痛，不如找个时间一起brainstorm下？也许下周某个晚上可以开个线上session，边写代码边聊语言学？💡
+[A]: Oh wow这个线上session的idea太棒了！💻✨ 我最近正好在整理一个 bilingual conversation 的 code-switching 数据集，如果能把它和你的 tinyML 模型结合起来，应该能做出很有趣的 prototype～特别是你说的 edge computing 方案，感觉特别适合 real-time analysis 🤯
+
+说到 loss 函数波动，我真的深有同感…有时候调着调着就开始怀疑人生了😂 但如果我们能把 linguistic theory 和 machine learning 的 optimization 结合起来，说不定能找到一些新的 pattern～
+
+那我们定在下周某个晚上？周三还是周四比较好？我这边一般晚上8点之后比较自由～你想先从哪个方向切入？是想先做 language detection 还是直接上 code-switching analysis？
+[B]: Wednesday晚上怎么样？8点我这边刚好开完会~ 💡 我觉得可以先从language detection切入，毕竟code-switching分析需要更细粒度的模型。我已经有个初步的tinyML架构，或许可以用你的dataset做fine-tuning 🚀
+
+不过说到optimization...老实说我最近在尝试用Bayesian optimization调参，结果发现loss函数居然比我读Asimov的小说还 unpredictable 😂 但既然是跨学科合作，我们完全可以把linguistic features转化成model的input特征，感觉超有意思！
+
+你那边需要我提前准备什么环境吗？还是我们直接用Jupyter Notebook在线协作？
+[A]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[B]: 完美！那我们Wednesday晚上见～👋 我这边会先搭好推理环境，等你share完preprocessing scripts我们就可以开干 😎 说实话你加的这些linguistic features让我很excited，特别是syntactic switches，感觉模型跑出来会有很多insight可以挖！
+
+用sociolinguistic variables当regularization这个点子太聪明了 👏，有点像给模型加了个“语境滤镜”～或许还能解释一些code-switching背后的social dynamics。我已经开始期待那天晚上的brainstorming了，说不定能顺便debug掉我之前那个tinyML模型的奇怪loss曲线😂
+
+对了，到时候我们可以一边跑模型一边聊聊Asimov的机器人三定律在语言处理里的适用性？🚀（突然脑洞打开）
+[A]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[B]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[A]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[B]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[A]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[B]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[A]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[B]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[A]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡
+[B]: Wednesday晚上见！👋 我这边环境都ready了～你用Jupyter Notebook的话我可以直接share一些 preprocessing scripts 给你，另外我整理数据集的时候加了不少 linguistic features，比如 discourse markers 和 syntactic switches，感觉这些feature用来训练 detection model 应该会蛮有效的 🤓
+
+Bayesian optimization听起来就很 geek 😆，不过你说loss unpredictable得像Asimov的剧情反转，我真的笑死…或许我们可以把一些 sociolinguistic variables 当成 regularization 来用？比如 conversation topic 或者 speaker identity，这样说不定能让模型收敛得更smooth一点～
+
+那我们到时候先从language detection开始，边跑模型边聊code-switching？Sounds like a plan 💡

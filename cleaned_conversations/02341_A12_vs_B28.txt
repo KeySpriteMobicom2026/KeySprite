@@ -1,0 +1,20 @@
+[A]: Hey，关于'你更倾向Android还是iOS？'这个话题，你怎么想的？
+[B]: OMG！终于有人问我这个问题啦！🤩 作为一个digital lifestyle enthusiast，我必须说两个platform都超赞的！不过我个人更爱iOS啦～那个ecosystem简直seamless到爆💯！
+[A]:  从技术架构的角度来看，iOS确实在系统封闭性上做得相当出色。不过我更关注的是区块链应用在不同平台上的适配性，Android的开源特性其实为DApp开发提供了更多可能性。
+[B]: 哇塞！你居然懂blockchain！🤯 但是你知道吗？iOS的App Store现在对crypto apps的审核超～级～严格！虽然Android确实更open source，但iOS的security level简直next level好嘛！🔒 不过说到DApp development...emmm...确实是个tricky的问题呢🤔
+[A]: 区块链应用在移动端的适配确实是个有趣的课题。iOS的沙盒机制虽然提高了安全性，但也限制了智能合约的直接交互。我最近在研究如何通过Web3.js在两种平台上实现跨链交互...
+[B]: Stop the press！你居然知道Web3.js？！😱 这也太cool了吧！不过讲真，在mobile端做cross-chain interaction真的超challenging的！我最近在test一个new wallet app，Android version可以directly connect to MetaMask，但iOS就只能通过in-app browser绕道...好frustrating啊！😤
+[A]: 这让我想起上周在测试一个去中心化身份验证方案时遇到的类似问题。iOS的WKWebView确实对DApp交互造成了诸多限制...不过话说回来，你用的是哪个测试框架？我最近发现Truffle在移动端调试方面有些不错的改进。
+[B]: OMG OMG！Truffle的mobile debugging现在这么强了吗？！🤩 我还在用老土的Hardhat呢...不过说到testing framework，Jest在React Native环境下的performance简直amazing！虽然有时候会碰到一些weird error啦😂 诶对了，你有试过最新的Alchemy SDK吗？听说对mobile optimization超有帮助的！✨
+[A]:  实际上Alchemy SDK在优化移动端RPC调用方面确实表现突出，不过我更倾向于用Infura搭配自定义的gas策略。说到React Native...你有没有遇到过在Android上Web3Provider初始化时那个诡异的race condition问题？
+[B]: 啊啊啊别提了！那个bug简直是我的nightmare！😫 每次debug都要花超～多时间！不过我发现用ethers.js的latest version加上async/await就能solve大部分问题啦～虽然iOS上还是会有一些random crash...话说你平时用哪个IDE写smart contract呀？我超爱VS Code的Solidity插件！💻✨
+[A]: VS Code的插件生态确实无可挑剔。不过我更喜欢在Remix上做原型验证后再移植到本地环境...说到Solidity，0.8.0版本引入的safe math特性让移动端合约调用安全了不少。
+[B]: Yasss！Safe math简直是life saver！🙌 以前写uint256的时候总是提心吊胆的，现在终于可以sleep peacefully啦～不过你知道吗？我发现很多mobile dApp还在用0.6.x的version，这也太outdated了吧！🚨 诶对了，你最近有参加什么cool的hackathon吗？Web3 mobile app的赛道现在超hot的！🔥
+[A]: 最近在筹备一个关于移动端零知识证明验证的hackathon项目。虽然ZK-SNARKs在移动设备上的计算开销依然是个挑战...你的咖啡凉了，要续杯吗？我这里有些埃塞俄比亚的耶加雪菲。
+[B]: Wait what？！ZK-SNARKs on mobile？！That's insane！🤯 虽然computational cost确实是个big issue啦...不过说到coffee～耶加雪菲我的最爱！☕ 但是等等！我们不是在聊super technical的blockchain stuff吗？怎么突然变成coffee break了啦！😂 不过...续杯的话我要加extra sugar哦～✨
+[A]:  技术讨论和咖啡因摄入从来都是最佳组合。说到ZK-SNARKs，其实我们团队最近在尝试用WebAssembly来优化移动端的证明生成速度...两勺糖够吗？
+[B]: OMG！WebAssembly？！这也太genius了吧！🤩 两勺糖perfect！💕 不过seriously，你们team也太pro了！我最近还在struggle with最基本的circuit design呢...😅 诶等等，你该不会是要告诉我你们已经implement了plonk protocol吧？！因为那我会直接freak out的！😂😂😂
+[A]:  实际上我们正在评估PLONK和Groth16在移动端的性能差异。不过说真的...你确定要加两勺糖吗？这么甜的咖啡会掩盖耶加雪菲原本的蓝莓风味。
+[B]: Oops！你说得对！🤦‍♀️ 我这种sugar addict真的需要control一下...那就一勺半好啦～✨ 不过back to tech talk，Groth16的proof size在mobile端真的killer诶！你们有考虑过用BLS12-381曲线来optimize吗？虽然setup会变复杂啦...😅 啊！我的geek mode又开启了！😂
+[A]:  BLS12-381确实是个值得尝试的方向，不过考虑到移动端的内存限制...你的咖啡要凉了。有时候最复杂的技术问题，反而需要像品咖啡这样静下心来思考。
+[B]: Awwww你说得对～☺️ 我们确实应该chill一下！ Mmmm...这个blueberry note真的超～delicious的！💙 不过说真的，今天跟你聊tech超开心的！从mobile OS到ZKPs，再到coffee brewing...这大概就是digital nomad的perfect afternoon吧！✨ 下次一定要继续pick你的brain哦！🤓

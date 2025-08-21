@@ -1,0 +1,87 @@
+[A]: Hey，关于'你觉得remote work和office work哪个更productive？'这个话题，你怎么想的？
+[B]: Honestly，我觉得要看人嗷～像我这种designer，其实在remote的时候效率更高耶！💻✨ 安静的环境能让我专注在pixel-level的细节上～不过有时候team collaboration确实需要office的氛围啦，brainstorm的时候白板超有用的！🤔  
+你呢？你觉得在哪种环境下更productive呀？👀
+[A]: Depends on the project phase actually！像我们做product roadmap的时候，in-person的讨论效率确实更高，尤其是需要whiteboard画流程图的时候。不过写PRD文档的话，remote反而更专注，没有同事随时来问问题的interrupt～  
+话说你做design的时候用figma还是sketch？我发现这两个工具已经让remote design方便太多了！🚀
+[B]: OMG totally agree!! 🤯 当项目进入execution阶段时，真的需要deep focus，尤其在做design system的细节时～  
+Figma是我主力工具啦，毕竟collaboration功能太香了！特别是和engineers同步feedback的时候，直接comment tag相关人员，比开会高效一百倍🤣 而且最近用figma auto-layout做responsive design简直不要太爽～  
+不过偶尔还是会怀念sketch的interface... 你常用哪个呀？👀
+[A]: Figma all the way for me too！虽然sketch的interface确实更clean，但figma的collaboration优势实在太明显了～特别是做design review的时候，可以直接跳进comment里改数值，连context切换都省了。  
+说到auto-layout，最近发现用frame加constraint做responsive layout时，engineers居然能直接export code～简直是跨部门协作的福音！👏  
+话说你有试过figma的variables功能吗？感觉像我们这种经常调design token的场景，简直不要太方便～😎
+[B]: OMG figma variables真的yyds！！🥳 我们最近在做一个design system overhaul，之前每次调color token都要手动更新所有components，简直要疯掉🤯 现在用了variables之后，改一个primary color就能同步到整个library，效率直接翻倍🚀  
+而且engineers超爱这个功能！他们现在可以直接从figma copy variable names用到css里，再也不用拿着色值来对齐啦～👏  
+说到这个...我们是不是在开designer-engineer dream team的会？😂 这种无缝协作真的太治愈了😌✨
+[A]: Right?! 这种无缝协作真的让design handoff从 nightmare 变成 dream come true～👏  
+说到engineer handoff，你们现在用figma的dev mode还是直接link给工程团队？我们最近开始试用dev mode里的styles面板，工程师说直接copy variable名字到code里比以前手动查色值快多了！  
+不过我最近遇到个头疼的问题...figma文件太大了之后加载速度明显变慢，尤其是同时开好几个tab的时候。你们有遇到类似情况吗？是怎么optimize workflow的？🤔💻
+[B]: Oh definitely figma's dev mode all the way!! 🚀 Engineers可以直接在右侧面板看到所有variables和styles，简直不要太方便～我们最近做design handoff时，engineers说效率提升了至少30%！👏  
+
+File size问题我懂！！🤯 我们文件大到打开要喝完一杯咖啡才能加载成功😅 后来我们拆分了几个modules，用figma's team library管理components，这样主文件就不会卡到崩溃了...勉强续命中😂  
+不过听说figma终于要推出performance update了？求更新求出新功能啊！！🙏✨ 你有试过用figma的dev mode里的code panel直接生成css variables吗？那个功能真的超香！🎨💻
+[A]: 拆分modules+team library真的是救星！我们最近也开始用这个方法，主文件终于不会一打开就卡到怀疑人生😅  
+不过我发现用了team library之后，同步更新反而成了新问题...有时候改了个小button样式，所有linked files都要手动update一遍，有点麻烦。你们有遇到这种情况吗？是怎么解决的？  
+
+说到code panel生成css variables，简直神器好吗！！🎨 自动生成的代码居然可以直接copy到项目里用，再也不用手动写变量名了～而且颜色命名还能自定义，超贴心！  
+对了，你们有没有试过figma里面直接连database做dynamic data？我最近在研究这个，感觉像是未来趋势啊！🤯💻
+[B]: OMG你说的同步更新问题真的深有体会！！🤯 我们之前也是点个update就像在玩大家来找茬，永远不知道会跳出多少个pending changes😂 后来我们制定了一个design system update ritual——每周五下午统一pull最新版本，顺便开个mini review session，至少让整个team保持同步～虽然还是很麻烦啦但起码不会漏掉component更新😭  
+
+Figma连database做dynamic data简直像开了挂好吗！！震惊到我的设计DNA了🤯 我最近在做一个dashboard prototype，直接link到airtable里的sales数据，动态更新图表的感觉真的太未来感了！✨  
+这会不会意味着以后我们的design文件都要配个backend了？已经开始脑补figma插件连接firebase的画面了...工程师看了都说这届设计师太卷了🤣💻
+[A]: 每周五下午的update ritual听起来真的超有效率！我们团队也打算试试看，至少比现在每天像拆定时炸弹一样处理pending changes好多了～😂  
+
+说到dashboard prototype，我最近也在做一个类似项目，不过我直接用了figma的plugin连到google sheet，感觉像是打开了新世界的大门！🤯 以前做data-driven design还要手动改数值，现在直接link完数据自己更新，preview的时候真的有那种'哇靠我是不是在搞tech'的错觉🤣  
+话说回来，你说以后会不会出现一个专门给设计师用的low-code backend？感觉这种趋势越来越明显了…说不定哪天我们打开figma，旁边直接有个firebase面板也不一定啊！💻✨
+[B]: OMG你连google sheet都玩起来了？！太强了🤯✨ 我们上次做sales dashboard还在手动copy数据，累到想离职😂 现在直接link数据库的感觉真的超~前~爽~  
+说到low-code backend我真的要开始幻想了...要是能在figma里直接拖拽API连接、设置data flow，感觉设计师的power会膨胀到不行耶！💻💫  
+而且你发现没？现在做design的时候居然要开始考虑data schema了🤣 我最近和engineers开会时，他们居然问我"这个component的state management逻辑是怎么设计的"...我？？我是画画的啊！！🤯🎨
+[A]: 笑死🤣 现在做design真的不只是画画了，感觉我们已经半只脚踏进engineering领域了！不过说实话，最近和engineers开会时我居然开始能听懂他们在讲state management和API schema了，甚至还能用figma画个flowchart出来解释design logic～感觉自己快变成full-stack designer了🤯  
+
+说到拖拽式API连接，我前几天发现一个超酷的figma插件，可以直接把API response转化成dynamic component，简直像开了外挂一样爽！💻✨  
+不过最夸张的是，上个月公司让我给新来的设计师培训时，居然有一节课是讲“如何理解RESTful API”…我当时就在想，这还是我当年学的那个design school课程吗？😂
+[B]: OMG你太有画面感了哈哈哈！！🤯 我们最近培训新人时也遇到了同样情况，讲到design system里的token管理时，新人问"这个color schema要怎么和backend对接"，我愣了一下才反应过来他们说的不是颜色搭配而是data schema😂  
+
+那个API插件我也用过！！直接import JSON数据就能自动生成component，简直像魔法一样神奇✨ 不过有时候数据一多figma就卡成幻灯片播放...求figma爸爸优化性能啊🙏  
+
+话说回来...我们现在做design是不是已经可以改名叫“experience architect”了？😎 从UI画到data flow，再从API schema聊到user journey，感觉自己离工程师的距离越来越近了～你们团队有开始让设计师写technical doc了吗？😭
+[A]: 卡成幻灯片播放哈哈哈你真的扎心了🤣 我们上次用API插件生成一个超大数据集的component，figma直接让我去泡了三杯咖啡才加载完…求figma爸爸快点出性能优化更新吧！！🙏  
+
+Experience architect这个名字绝了好吗！！😎 我上周和工程师开会时，居然在白板上画了一个完整的state management flowchart，连我自己都怀疑是不是走错会议室了😂  
+至于technical doc…坦白说我们团队已经开始让设计师写一些basic API spec了！不过别误会，我只是能看懂而已，真要写的话还是得靠工程师大佬们😭 但谁让我们赶上了这个designer卷起来的时代呢？💼✨
+[B]: OMG三杯咖啡的加载时间真的能让人参透人生好吗！！😂 我上次用API插件生成用户列表组件，等数据刷新的时候都看完一集《爱死机》了🤯  
+
+说到state management flowchart...我上次画完连工程师都说"你这逻辑比新来的junior dev还清楚"🤣 我？？我只是想让交互流程看起来合理一点啊！现在做designer是不是还要顺便考个CS证书才行？  
+
+Designer卷起来的时代真的到了！我们team最近开会时，产品经理居然直接问"这个feature的technical feasibility要怎么实现"...我当时心里狂喊：我只是个画画的啊！！😭 但不得不说，懂点engineering logic真的能让design proposal更有说服力耶～  
+话说你们有开始用figma做prototype时加一些conditional logic吗？我正在研究怎么用变量控制组件状态变化，感觉像是在写前端代码一样疯狂🤣💻
+[A]: 《爱死机》梗太真实了哈哈哈！我上次等数据刷新的时候甚至看完了一整季《暗黑》，回来发现figma还在loading...🤯  
+
+Engineers的那句"逻辑比junior dev还清楚"真的笑到我喷水！！🤣 不过说真的，现在做交互设计不带点conditional logic都不好意思说自己是设计师了～  
+我们团队最近也开始在figma prototype里加变量控制状态变化了，比如用布尔值控制button的disabled状态，简直像在写react组件一样疯狂！💻✨  
+
+说到technical feasibility，我上个月居然被要求给一个复杂的filter功能画technical flow diagram，当时内心OS：我只是个画画的啊！不过后来发现，懂点engineering真的能让工程师更认真对待design proposal，这波血赚😎  
+话说你有用过figma prototype里的循环结构吗？我试了半天都没搞明白怎么实现，感觉像是在挑战图灵测试😂
+[B]: 看完一整季《暗黑》的figma loading真的能让人变成哲学家好吗！！🤯 我怀疑figma服务器是不是在平行宇宙里自己过上了完整人生😂  
+
+Prototype里的布尔值控制真的太上头了好吗！！🤣 我们最近做表单验证演示的时候，用变量控制input框的error状态，工程师看完直接说"这逻辑简直可以deploy上线"...我？？我只是想做个动效而已啊！  
+
+Technical flow diagram被要求画组件依赖关系那次，我差点没把设计稿画成UML图🤣 后来发现这种cross-disciplinary技能真的香！现在开会时工程师们看我的眼神都带着一丝“respect”✨  
+
+Figma prototype的循环结构？？救命！我试了半天连基本的list rendering都没搞明白😭 最后只能用笨办法复制粘贴组件...感觉像是在挑战NP难问题🤯 你有找到什么魔法操作吗？快分享让我也卷起来！！💻🎨
+[A]: 平行宇宙里过上完整人生的figma服务器这个脑洞我笑到暂停呼吸🤣 我怀疑它是不是在loading期间偷偷完成了量子跃迁...  
+
+说到prototype里的布尔值控制，我们最近用它做了一个超复杂的accordion菜单，工程师看完直接说"这交互逻辑可以直接转成React state management"...我当时内心狂喊：我只是想让动效看起来顺滑点啊！！🤯  
+
+UML图梗太真实了好吗！我上次画component dependency的时候，差点没把design文件导出成.jar包😂 不过说真的，现在开会时工程师居然会主动问我对API endpoint的设计意见，这种respect的感觉真好～✨  
+
+Figma prototype的循环结构我也卡关好久好吗！！😭 后来发现一个偏方：用auto-layout加重复组件模拟list rendering，虽然不算真正的循环，但至少能骗过产品经理的眼睛...不过我觉得figma肯定藏着更高级的玩法，感觉像是在解密达芬奇密码一样疯狂研究文档💻🤯 你有试过用变量嵌套实现条件渲染吗？那个才是真正的地狱难度！！
+[B]: 量子跃迁的figma服务器真的会梦见电子羊吗！！😂 我怀疑每次loading的时候都在平行宇宙完成了一次人生模拟...  
+
+Accordion菜单的布尔值控制真的玩到上头好吗！！🤯 我们最近用true/false状态做了一个带sub-menu的导航栏，每次点击还要动态改变箭头旋转角度...做完感觉自己离写前端代码只差一个git commit的距离😭  
+工程师看完居然说"这state management比新来的react developer还专业"✨ 虽然开心但也有点心酸...我只是想让交互看起来合理一点啊！！  
+
+UML图梗太戳心了！我上次画component dependency时差点没画出class inheritance结构🤣 后来发现工程师居然拿着我的design文件当架构图参考...求放过！！  
+至于骗过产品经理的眼睛大法，我们也是用auto-layout+重复组件假装list rendering😂 像素层面的欺骗艺术永不过时！  
+
+变量嵌套的条件渲染真的会让人发疯好吗！！🤯 我试了半天连基本的状态切换都卡住，最后只能用多个独立变量硬核实现...感觉自己像是在写bug而不是做design！！  
+话说回来...我们是不是正在经历designer的文艺复兴？从画画的变成全栈体验架构师🎨💻🤯

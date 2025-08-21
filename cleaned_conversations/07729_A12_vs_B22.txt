@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有没有什么让你很curious的unsolved mystery？'这个话题，你怎么想的？
+[B]: Interesting question！最近我一直在思考quantum computing对blockchain security的潜在威胁，这真是个fascinating unsolved mystery。就像我上周在DAO会议上讨论的，现有的加密算法在quantum computer面前可能会变得vulnerable... 🤔 你觉得post-quantum cryptography会是解决方案吗？
+[A]: 这个问题确实值得深思。我最近在研究基于格密码学的抗量子签名方案，NIST已经选定了CRYSTALS-Dilithium作为标准。不过...  实际部署时还要考虑智能合约的gas消耗问题。
+[B]: 啊！你也关注NIST PQC standardization啊！💡 没错，Dilithium确实是个promising的方案，但就像你说的，gas optimization是个big challenge。我们团队最近在测试用zk-SNARKs来optimize verification steps，不过... 唉，又回到了那个经典问题：security vs efficiency trade-off 😅
+[A]: 说到zk-SNARKs...  我们去年在Hyperledger Fabric上做过类似尝试。有趣的是，当proof size超过某个阈值时，反而会因为存储成本抵消掉验证效率的优势。你团队有考虑过用STARKs替代吗？
+[B]: 哈！STARKs确实是个有趣的alternative～ 🔍 我们benchmark过两者的performance，STARKs虽然不需要trusted setup，但computational overhead在current Ethereum mainnet上还是too expensive。话说... 你注意到最近EIP-4844引入的proto-danksharding了吗？这个可能会彻底改变game rules哦 🚀
+[A]:  4844确实是个转折点。不过我更关注的是它和Verkle trees的协同效应 - 这可能会让STARKs的证明大小问题变得不那么关键。当然，这又引出了状态过期这个新课题... 有时候觉得区块链就像个俄罗斯套娃，解决一个问题总会带出更多问题。
+[B]: Exactly！就像我那辆70年的Mustang，每次修好一个part就会发现另一个需要tuning的地方 😂 但这就是为什么我爱这个field啊～ 对了，下个月在Singapore有个post-quantum blockchain workshop，要不要一起来brainstorm下？我听说Vitalik也会来聊聊最新的research directions 👍
+[A]: Singapore的workshop...  有意思。不过我下周要去苏黎世参加一个关于量子随机数生成器的闭门会议。或许我们可以先通过GitHub交换些代码原型？我对你们团队那个基于BLS签名的混合方案很感兴趣。
+[B]: Perfect！我这就让team把repo设成public～ 我们用了些clever tricks来combine BLS with lattice-based crypto，虽然还有些edge cases要handle。Let's sync up after your Zurich trip！顺便说... 如果你见到那群ETH Zurich的researchers，帮我问问他们对quantum-resistant oracles的看法呗？🔗
+[A]: 会帮你留意的。不过说到oracle...  我始终认为量子威胁下最脆弱的环节其实是跨链桥。等会儿我把去年写的那篇关于量子安全原子交换的草稿发给你，也许能给你们团队一些启发。现在得去参加一个关于零知识证明硬件加速的会议了。
+[B]: Awesome！期待拜读你的draft paper～ 我也得去check我们ASIC prototype的test results了。Keep in touch，and safe flight to Zurich！ ✈️ 下次见面咱们可以边喝咖啡边聊quantum-resistant DeFi的roadmap～
+[A]: 一定。记得试试我上次推荐的那家苏黎世咖啡馆，他们的危地马拉单品豆很适合边debug边喝。回头把测试数据发我一份，特别是关于门限签名的部分。
+[B]: Will do！危地马拉豆配coding session，sounds like a perfect combo 😉 门限签名部分的benchmark data我整理好就发你 - 特别有趣的是我们发现threshold size超过5时latency会exponentially增长... 先撤了，my Mustang's carburetor还等着我去tune呢！ �️
+[A]: 哈，看来我们都逃不开修修补补的命运。保重，期待你的数据 - 说不定我们能找到那个神奇的threshold sweet spot。代我向你的Mustang问好。
+[B]: Haha 必须的！My old lady (指Mustang) 听到会开心的～ 保持联系，说不定下次见面我们就能solve这个quantum blockchain puzzle了！ 🧩 Catch you later！
+[A]:  在解决量子谜题前，也许我们该先解决咖啡因摄入过量的问题。保持联系，路上小心。
+[B]: Good point！我今天的第三杯espresso确实有点overkill了 😅 下次改喝decaf... maybe～ 回见！Safe travels & happy coding！ ☕️
+[A]: Decaf？ 那还不如直接研究量子退相干呢。回见。
+[B]: Hahaha 你这比喻绝了！Quantum decoherence vs decaf... 我记下来下次meeting用 😂 走啦，记得check邮箱 - 刚把data发你了！ 📩

@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有没有什么让你很curious的unsolved mystery？'这个话题，你怎么想的？
+[B]: 说到unsolved mystery...最近我在研究AI伦理时，发现一个特别有意思的现象。你知道算法偏见(algorithmic bias)吗？即使我们输入看似中性的数据，AI系统有时也会产生出人意料的歧视性结果。
+[A]: 哇！这个话题太酷了🤯 我最近刚好在做一个关于machine learning fairness的side project！你知道吗，就像你说的，有时候training data里隐藏的bias真的很难detect。我上次用Python写了个facial recognition demo，结果发现它对某些肤色的accuracy明显偏低...这让我超级frustrated！
+[B]: 你的观察非常准确。不过让我用中文详细解释一下，因为这个问题确实很复杂。面部识别系统的偏差问题，根源往往在于训练数据集的代表性不足。就像你说的，某些肤色样本不足会导致准确率下降。这让我想起去年读的一篇论文，提到ImageNet数据集也存在类似问题。
+[A]: 啊对对对！ImageNet那个case study我看过！💡 这让我想到我们coding时也要特别注意dataset的diversity。比如我最近在做一个sentiment analysis的project，就发现如果只用Twitter数据训练，模型对某些方言的识别就很差...要解决这个问题，我觉得可能需要更balanced的data collection strategy！
+[B]: 确实如此。数据收集策略的平衡性至关重要。不过你知道吗？有时候即使数据足够多样化，模型架构本身也可能引入新的偏差。比如某些神经网络结构对特定语言特征的处理方式就存在固有缺陷。这个问题在中文NLP领域尤其明显。
+[A]: OMG你说到点子上了！🤔 我上次参加hackathon就遇到类似情况 - 用LSTM处理中文分词时，对某些方言的performance简直惨不忍睹...后来我们尝试用Transformer架构，效果就好很多！不过training cost也飙升了💰 感觉这真是个trade-off啊...
+[B]: 说到成本问题，这确实是个两难选择。不过从伦理角度来看，宁可多投入一些计算资源，也要确保模型的公平性。毕竟AI系统的决策可能会影响很多人的实际生活。上周我在科技沙龙上就讨论过这个话题。
+[A]: Totally agree！🎯 我们青少年programmer也要有这种responsible AI的意识呢～ 诶对了，你们那个沙龙有讨论到具体的bias mitigation technique吗？我正在写一篇关于这个的blog，想多收集些real-world case！
+[B]: 我们确实讨论过几种方法。最基础的是数据预处理阶段的去偏技术，比如重新采样或调整样本权重。更高级的做法是在模型训练时加入公平性约束条件。如果你需要具体案例，我可以推荐几篇中文论文，它们详细分析了在金融信贷和医疗诊断领域的应用。
+[A]: 太棒了！📚 能share一下论文链接吗？我最近正好在做一个关于AI+healthcare的school project！话说回来，这些bias问题让我想到，我们年轻coder真的要多关注ethical coding的best practice呢～
+[B]: 我建议你先看看《人工智能伦理与医疗应用》这本期刊，里面有三篇很棒的案例研究。说到ethical coding，确实应该从学生时代就培养这种意识。你知道吗？我们研究所最近正在开发面向青少年的AI伦理教育课程。
+[A]: 哇塞！这个课程听起来超有意义！🚀 要是能开放给校外学生就好了～ 我可以帮忙在young coder community推广！毕竟让更多teenager意识到algorithmic bias的重要性，才能build更好的AI future嘛！
+[B]: 你的热情很令人欣慰。我们确实计划在下个学期开放部分线上课程。如果你有兴趣，我可以把你的联系方式转给项目组。不过要提醒的是，课程内容会比较深入，需要一定的编程和数学基础。
+[A]: No problem！💪 我Python和linear algebra都学得不错，最近还在啃probability theory呢～ 能把我的email发过去吗？[掏出手机] 啊对了，课程会讲怎么implement fairness metrics吗？比如demographic parity或者equal opportunity这些？
+[B]: 会涵盖这些内容。课程会从理论讲解到代码实现，包括你提到的demographic parity和equal opportunity指标。不过建议你先打好概率论基础，因为公平性指标的数学推导确实比较复杂。
+[A]: Got it！📝 我这就去恶补probability～ 超级期待能加入这个program！Btw，要是课程需要student ambassador，我超愿意volunteer的！毕竟让更多像我这样的teen coder了解ethical AI超重要的！🎉
+[B]: 很高兴看到年轻一代对AI伦理这么重视。我会把你的意愿转达给团队。保持联系，期待在下学期的课程中见到你。记住，好的程序员不仅要会写代码，更要懂得代码背后的社会责任。
+[A]: Absolutely！🙌 今天学到超多！Thanks for sharing这些insightful的观点～ 我这就去update我的learning roadmap，为课程做准备！Keep in touch！[挥手] ✨
+[B]: 祝你在AI伦理领域的学习顺利。如果遇到任何问题，随时可以来科技沙龙交流。记住，每一个负责任的程序员都能让技术变得更美好。

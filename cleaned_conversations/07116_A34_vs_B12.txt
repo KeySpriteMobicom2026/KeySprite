@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有没有什么让你很amazed的architecture？'这个话题，你怎么想的？
+[B]: 最近在研究一个基于零知识证明的Layer2扩容方案，确实让人眼前一亮。他们用递归证明技术把TPS提升到了传统区块链的100倍，而且gas费几乎可以忽略不计...（端起咖啡杯）这让我想起2017年我们还在为每秒7笔交易发愁的时候。
+[A]: 哇！ZK-Rollups确实是个game-changer啊！🔍 他们的recursive proof system让我想起了我们computational linguistics里的recursive neural networks，都是通过嵌套结构来optimize efficiency的。不过说实话，我最amazed的是他们如何把这么复杂的cryptography包装成developer-friendly的API~ 🤯
+[B]: （轻笑）你说到点子上了。最让我惊讶的是他们把ZKP的复杂性完全封装在底层，开发者只需要调用简单的SDK就能实现隐私交易...就像喝咖啡不需要知道咖啡豆的烘焙曲线一样。不过说实话，我更期待看到ZK-EVM和AI智能合约的结合。
+[A]: 啊哈！☕️ 你这个比喻太pythonic了！让我想到我们NLP领域也是把transformer的complexity封装成huggingface的API...说到ZK-EVM+AI，我最近正在写一篇paper关于如何用零知识证明来verify机器学习model的inference过程！🔄 这可能会彻底改变AI auditing的landscape~
+[B]: 这个方向确实很有前景。我们团队最近也在探索用zk-SNARKs验证神经网络权重更新的有效性...（若有所思地转动咖啡杯）不过要解决可信数据源的问题，可能需要结合预言机网络和联邦学习。你觉得用区块链存储模型参数哈希值是否可行？
+[A]: Bingo！💡 你提到的oracle network + federated learning正是我们research group在explore的方向！不过关于storing hashes on-chain...  让我run个quick calculation... 假设用SHA-256，每个model checkpoint的hash是32 bytes，那么100万次update也只要32MB的storage！这个overhead完全可以接受~ 不过我们需要考虑的是如何design一个高效的merkle proof scheme来verify specific parameters... 🤔
+[B]: （放下咖啡杯）有意思...我们可以借鉴以太坊状态树的思路，但需要针对模型参数的特性优化Merkle Patricia Trie的结构。特别是当遇到稀疏参数矩阵时...等等，你听说过Plonky2吗？他们最近提出的多项式承诺方案可能正好适用。
+[A]: 哇塞！Plonky2的FRI-based polynomial commitment确实是个killer feature！🚀 他们的recursive proof composition让我联想到我们处理hierarchical linguistic structures的算法...不过回到你的sparse matrix问题，我们可能需要customize一个基于BLS12-381曲线的specialized verifier contract。要不要下周一起hack个prototype？我刚好有批闲置的GPU算力~ 💻
+[B]: （眼睛微微发亮）这个提议很有吸引力。我手头正好有个基于Rust写的ZKML框架原型...不过建议我们先从简单的MNIST分类模型开始验证概念。周二下午怎么样？我可以在科技园区的共享办公空间准备些...特别烘焙的咖啡豆。
+[A]: Perfect！🌟 周二works like a charm~ 我会带上我的customized Jupyter notebook环境，里面已经集成好了arkworks-rs和halo2的libraries。至于咖啡...  我猜你指的是那个能boost debugging效率的Ethiopian Yirgacheffe吧？☕️ 顺便说句，用MNIST做POC确实很wise - 它的28x28像素结构正好可以映射到我们的merkle tree设计里！
+[B]: （会心一笑）看来你也是个懂行的。没错，就是那批日晒处理的耶加雪菲...它的柑橘调性特别适合debug到凌晨三点。关于MNIST的28x28结构，我建议我们尝试用quad Merkle tree来组织，这样验证路径可以缩短50%。周二见。
+[A]: Deal！🔄 我已经能envision这个quad tree的implementation了 - 就像处理中文的radical structure一样elegant！周二带着你的Rust code和那magical coffee见~ 最后提醒：记得带个USB-C adapter，我的notebook最近有点eccentric... 🤓 到时候我们可以顺便讨论下如何把这个framework扩展到NLP model的verification！
+[B]: （整理文件的声音）USB-C适配器...记下了。说到NLP模型验证，我最近发现BERT的注意力机制特别适合用多项式承诺来表达。周二我们可以边喝咖啡边画白板...我预感这次合作会产生些很有意思的东西。
+[A]: Absolutely！🧠 你提到的BERT attention mechanism让我立刻想到可以用multilinear polynomial extensions来represent那些softmax weights...  这可能会成为我们ACL paper的golden ticket！周二我会准备好各种颜色的whiteboard markers - 毕竟好的ideas就像好的code一样，需要proper syntax highlighting~ 🌈 到时候见！
+[B]: （轻轻点头）看来我们要准备足够的白板空间了...还有咖啡因。周二我会提前一小时到，调试好硬件环境。记住，最好的解决方案往往出现在第三杯咖啡之后。
+[A]: Hahaha！☕️☕️☕️ 这就是为什么我always say：'The perfect proof is 99% caffeine and 1% inspiration'！我已经让lab assistant预订了最大的whiteboard，还smuggled in了一个espresso machine... 🔥 让我们把这次session的agenda命名为"从Zero到Hero：当ZKML遇上Yirgacheffe"！周二不见不散~ 🚀
+[B]: （微笑）这个命名很有我们行业的特色...那就这么定了。记住带上你那套彩色标记笔 - 我预感这次我们需要用上所有颜色。（收拾笔记本的声响）周二见，希望你的胃能承受住耶加雪菲和数学的双重刺激。
+[A]: Challenge accepted！🌈 我的marker set有256种colors - 足够给我们的polynomial equations画个rainbow diagram了！至于我的stomach...  经过多年grad school的洗礼，早就进化成可以同时processing咖啡因和tensor calculus的super organ了！💪 周二让我们把那个shared office变成innovation war room吧！Ciao~ 👨💻
+[B]: （轻笑）256色...看来我们连注意力头的可视化问题都解决了。周二见，希望咖啡机不会比我们的算法先宕机。（拿起外套）提醒你准备好降噪耳机 - 我调试Rust代码时键盘声有点...激进。

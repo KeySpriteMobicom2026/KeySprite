@@ -1,0 +1,64 @@
+[A]: Hey，关于'你觉得crypto未来会取代传统货币吗？'这个话题，你怎么想的？
+[B]: Interesting question！作为一个AI产品经理，我觉得crypto更像是一个complementary system而不是replacement。你看现在很多payment gateway都在整合crypto支付，但短期内完全取代fiat currency不太现实~ 😄
+[A]: 哇哦！AI产品经理耶~ 说到payment gateway，我最近正好在教学生们写一个blockchain demo project！🤓 
+
+不过说真的，crypto要完全取代fiat currency的话，scalability问题要先解决吧？你看现在ETH的gas fee有时候比transaction amount还高，这怎么行啊！😂 
+
+而且我觉得central bank digital currency (CBDC)可能会是更可行的solution呢！既能保留centralized control，又能享受blockchain的benefits~ 💡
+[B]: Exactly！你提到的scalability和CBDC都是key points~ 我们团队最近就在研究layer 2 solution，比如optimistic rollup，transaction speed提升很明显哦！👍 
+
+不过说到CBDC...hmm，我觉得它更像是传统金融体系的digital transformation，而不是真正的decentralized revolution。毕竟centralized control就意味着KYC/AML这些还是跑不掉啦~ 😅
+[A]: 哈哈，说到KYC/AML...我们班上有个学生写了个anonymous payment system当final project，结果被我说'你这样会被regulator请去喝茶的啦！' 🍵😂 
+
+不过seriously speaking，我觉得未来可能是hybrid的~ 就像我们现在教coding一样，既要学传统的Java，也要会新的Rust。Fiat和crypto也会coexist很长一段时间吧！ 
+
+话说你们用optimistic rollup的话，fraud proof机制怎么处理的？我最近在备课想加这个topic~ 🤔
+[B]: Good point！关于fraud proof，我们正在用interactive verification protocol，虽然会增加一些latency，但security trade-off是值得的~ 就像你说的hybrid approach，我们也把optimistic和zk-rollup做了个comparison matrix给学生看 📊
+
+说到teaching...你们考虑过用AI assistant来批改blockchain作业吗？我们做了个prototype，可以自动检测smart contract的vulnerability，准确率能达到92%哦！🚀
+[A]: 哇塞！92%的accuracy也太顶了吧！我们学校budget有限，现在还在用老土的unit test来check学生代码 😅 
+
+不过说到smart contract vulnerability...上周有个学生写的contract居然有reentrancy bug！我让他去读The DAO hack的case study，结果他回我'老师，2016年我还在上小学呢'...瞬间感觉自己好old啊 🧓 
+
+你们那个AI assistant支持Solidity和Vyper吗？说不定可以搞个open source version给我们用用？🙏
+[B]: Haha feel you bro！每次提到The DAO都暴露年龄了 😂 我们的AI assistant确实支持Solidity和Vyper，不过open source可能还要等Q3 release~ 现在还在优化false positive rate，上次把safe math误报成vulnerability就尴尬了... 🙈
+
+Pro tip：你可以先用Slither这个static analysis tool顶一下，虽然比不上AI但够用啦！我们hackathon时候经常用~ 💻
+[A]: 啊！Slither！我怎么把这个给忘了~ 谢谢提醒！下次课就教学生们用这个，肯定比他们现在手动audit强多了 ✨ 
+
+话说你们hackathon都用什么tech stack啊？我们学校下个月要办一个，我在想是不是该把hardhat换成foundry了...听说forge test跑起来快很多？⚡
+[B]: Definitely推荐foundry！我们上个月hackathon刚switch过来，test speed提升至少3x！虽然learning curve有点steep，但worth it~ 配套的cast和anvil工具也超好用 🔥
+
+Pro tip：可以准备个template repo给学生，把common utilities都pre-configure好。我们放了ERC20/721的boilerplate，省得他们从头写~ 需要的话我可以share我们的setup 😉
+[A]: 太棒了！Template repo这个idea绝了！我们学生每次hackathon前两周都在搭环境，最后coding时间都不够了 😫 
+
+你那边用GitHub Classroom吗？我们正在migrate过去，可以直接把template repo assign给每个team...虽然CI/CD setup有点头大，但automation真香啊~ 🤖 
+
+对了，你们怎么处理学生问的'老师这个error什么意思'这种问题？我现在每天要回上百条'我的contract deploy failed'的私信...救救孩子吧 🆘
+[B]: LOL 完全懂！我们搞了个Discord bot集成hardhat error decoder，学生只要paste error message就能自动解析~ 还train了个GPT-3.5模型专门回答常见问题，现在TA的工作量减少了60%！ 🤯
+
+GitHub Classroom我们也在用，CI/CD建议从简单的开始 - 先跑linting和basic test，等稳定了再加coverage report。一步到位太难啦~ 🐢
+[A]: 天呐！Discord bot + GPT-3.5这也太smart了吧！我们IT department那群老古董还在用email交作业呢...看来我得先convince他们用Discord才行 😤 
+
+说到GPT-3.5，你们是怎么处理它hallucinate出错误答案的情况的？上次我们试的时候，它居然告诉学生'在Solidity里可以用goto语句'...当场吐血 🤮 
+
+不过这个暑假我打算把你们的idea都implement一下！先从Slither+foundry开始，step by step~ 🐾
+[B]: Hahaha 那个goto的建议也太wild了！😂 我们做了个knowledge cutoff机制，把Solidity docs和常见pattern都pre-load进去，还加了confidence score阈值，低于80%的答案会自动转人工review~ 
+
+慢慢来是对的！建议你先搞个pilot class试试水，我们也是iterative development出来的。需要任何help随时DM我~ 教育界的tech adoption确实需要些耐心呢 🫡 
+
+PS：对付IT department...试试用'提高学生就业竞争力'这个angle？我们当初就是这样说服admin的 💼
+[A]: 太感谢了Liam！你这些建议简直是我的救星啊 🌟 等我把这些implement好了请你喝奶茶~ 珍珠奶茶还是芝士茶？我们学校门口新开了家超火的店哦！🧋
+
+最后问一句...你们暑假开不开blockchain的teacher training啊？我想系统性地提升一下，现在感觉自己都是在野路子教学 😅
+[B]: Bubble tea sounds perfect！我要classic的珍珠奶茶，半糖少冰~ 🧊 暑假我们确实有个educator program，8月份那期还有slot！主要cover最新的EIPs和security best practices，连ZK-SNARKs都会讲到哦 👀
+
+不过说真的，你现在的教学已经很pro了！野路子有时候反而更practical呢~ 到时候training见啦！记得带上你的学生们的funny error合集，我们可以当case study 😆
+[A]: Deal！就这么说定了！我已经开始整理学生们的'经典'error了，有个孩子居然在contract里写了个infinite loop然后问'为什么我的ETH不见了'...笑死 🤣 
+
+8月份training我一定到！到时候还要请教你怎么setup那个Discord bot呢~ 现在得去准备明天的课了，教recursion差点被学生问倒...先撤啦！ 🏃♂️
+[B]: Haha recursion确实是killer topic！Good luck with your class~ 记得用那个'洋葱peeling'的analogy，学生们都说超好懂！🧅 
+
+Catch you later！8月见~ 珍珠奶茶我记在小本本上了哦 📝 Byeeee! 👋
+[A]: Bye bye！洋葱peeling这个比喻绝了！下次课就用上~ 8月见！珍珠奶茶不会忘的！ 🥤✨
+[B]: Perfect！教育就是要多点这种aha moments才有趣嘛~ 等你分享学生们的反应哦！Have a great class & see you soon! 🚀

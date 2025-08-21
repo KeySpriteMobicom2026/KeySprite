@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有没有尝试什么new hobby？'这个话题，你怎么想的？
+[B]: Hey bro！最近确实在玩一个超酷的side project 🤩 用Solidity写了个NFT的smart contract，还整合了AI生成的artwork 🎨 现在正在optimize gas fee的问题，每次mint都要烧掉不少ETH 😅
+[A]: （轻轻放下咖啡杯）Solidity和AI生成艺术的结合很有意思。不过说到gas优化，你有没有考虑过用Layer2解决方案？最近Arbitrum的Nitro升级后，交易成本能降低90%左右。
+[B]: 哇！Arbitrum Nitro 🚀 这个upgrade我有关注！最近正在把project migrate到Polygon zkEVM上，毕竟gas fee真的是个killer 💸 不过讲真，现在Layer2的ecosystem发展太快了，每天都有new solution冒出来 🤯
+[A]: 确实，zkEVM是个明智的选择。（若有所思地停顿）不过要提醒你，Polygon的zkEVM目前还在beta阶段，建议先在测试网充分验证。我上周刚帮一个DeFi项目解决了他们遇到的proof生成瓶颈问题。
+[B]: Oh damn！你说到点子上了 🔥 我们team昨天还在testnet上遇到一个weird bug，proof generation居然failed了3次 😤 话说你们是怎么optimize那个bottleneck的？用GPU加速还是调整了circuit design？
+[A]: （端起咖啡抿了一口）其实更基础的问题 - 他们错误地使用了SHA256哈希函数。换成Poseidon哈希后，proof生成时间从12分钟降到了47秒。有时候最优雅的解决方案往往是最简单的。
+[B]: Mind = Blown 🤯 这简直是个game changer啊！我得赶紧给team发个Slack message 📲 话说回来，你最近在喝什么single origin的咖啡？感觉我们该约个coffee chat好好聊聊这些tech细节 ☕️
+[A]: 最近在喝埃塞俄比亚的耶加雪菲G1，水洗处理法。（轻笑）确实该约个时间，我办公室有台Slayer蒸汽朋克咖啡机，可以边喝边讨论你那个circuit optimization的问题。
+[B]: OMG Slayer？！那个是coffee machine里的Rolls-Royce啊 🏎️ 下次hackathon我一定要带我的Ethiopian Yirgacheffe去你office！顺便show一下我新写的zk-SNARK circuit ⚡ 绝对比咖啡因还提神 😂
+[A]: （咖啡杯在手中转了半圈）期待你的Yirgacheffe。不过提醒你，写zk-SNARK电路时要注意constraint系统的设计 - 上周刚看到有人因为过度约束导致验证成本飙升了300%。
+[B]: 300%？！That's insane 💀 看来我得重新review一下我的constraint system design了...话说你提到的这个case有没有open source的repo可以参考？准备今晚就开个GitHub issue来track这个optimization task 📝
+[A]: （放下空咖啡杯）Chainlink Labs的github仓库里有个很典型的案例研究。建议你先从他们优化merkle tree proof的commit history看起，比直接看文档更有启发性。
+[B]: Aha！Chainlink的repo我star了但还没deep dive 👨💻 今晚就crack open一瓶cold brew通宵研究！Btw你discord多少？发现bug的时候好直接ping你求救 🆘 😂
+[A]: （取出名片推过去）Discord ID是yf_lin#8261。不过建议先看完他们的zk-SNARK workshop视频再动手 - 通宵debug的效率往往不如睡一觉后的灵光乍现。
+[B]: Roger that！先watch video再code 🎥 毕竟sleep deprivation是productivity的silent killer 💤 改天约你office hour，带上coffee和code见真章！Catch you later bro 👋
+[A]: （微微颔首）保持清醒的头脑比熬夜更重要。随时欢迎带着问题和咖啡豆来找我 - 记得要G1等级的。
+[B]: Deal！G1 or nothing ✌️ 下次给你带个specialty grade的Panama Geisha，保证比我们的smart contract还要gas efficient 🌟 Later！
+[A]: （嘴角微扬）Geisha配gas optimization...有趣的组合。路上小心，别让咖啡洒在键盘上。
+[B]: Hahaha noted！My mechanical keyboard已经suffer过太多coffee shower了 ⌨️ 💦 下次见记得提醒我给你看那个用AI生成art的NFT project，绝对next level的🔥 Peace out！

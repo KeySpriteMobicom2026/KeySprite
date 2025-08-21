@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有读到什么有趣的book或article吗？'这个话题，你怎么想的？
+[B]: 最近正在重读《未来简史》，特别是关于人工智能伦理的章节。赫拉利对算法偏见的讨论让我很有共鸣 - 机器学习的决策过程如果不加以规范，确实可能放大社会中的不平等。
+[A]: Wow，这个话题太timely了！我们team最近正好在做AI fairness的research。你知道吗？现在很多model都存在hidden bias，比如某些CV算法对特定肤色的recognition rate会显著降低。
+[B]: 确实，这个问题在计算机视觉领域尤为突出。我最近参与的一个研究项目发现，即使是主流的人脸识别系统，对不同人种的识别准确率差异能达到10%以上。这让我不禁思考：我们是否应该为AI系统制定更严格的公平性测试标准？
+[A]: Absolutely！我们正在push一个叫"Responsible AI Framework"的initiative，其中就包括mandatory的bias testing。不过说实话，implementation层面还有很多challenge，比如如何定义"fairness"的metric就是个big question。
+[B]: 这个问题很有意思。在中文文献中，我们通常称之为"公平性指标"。实际上，不同的公平性定义可能会导致完全相反的结论 - 比如统计均等和机会均等就可能产生冲突。我建议可以参考一下清华大学最近发布的《人工智能伦理白皮书》，里面提出了一个比较全面的评估框架。
+[A]: Thanks for sharing！清华的paper我还没check过，等下一定要download来看看。说到这个，我们最近也在和MIT的team collaborate，他们提出的"counterfactual fairness"概念特别fascinating - 通过构建虚拟样本的方式来检测bias。
+[B]: 虚拟样本确实是个创新思路。不过我在想，这种方法会不会陷入"完美公平性"的迷思？毕竟现实世界本身就存在各种结构性不平等。也许我们应该把重点放在如何让AI系统更透明地展示其决策依据，而不是追求绝对的公平。
+[A]: That's a really insightful point！Transparency确实是key。我们正在develop一个explainable AI的dashboard，让end user能看到model的decision-making process。不过说实话，trade-off between accuracy and interpretability也是个tough problem...
+[B]: 确实，准确性和可解释性之间的平衡是个永恒难题。就像我们常说的"黑箱模型"困境 - 越复杂的模型往往性能越好，但越难解释。这让我想起上周在科技沙龙上讨论的一个观点：也许我们应该重新思考什么是真正重要的AI评估指标。
+[A]: Totally agree！传统的accuracy metrics可能已经不够用了。我们正在explore一些新的evaluation framework，比如incorporate更多human-centric的factors。By the way，你提到的那个科技沙龙听起来很interesting，是在哪个community举办的？
+[B]: 是在中关村的人工智能伦理协会举办的月度研讨会。如果你感兴趣的话，我可以把下期的议程发给你。最近他们正在组织一个关于"以人为本的AI设计"专题讨论，应该会涉及到你刚才提到的人类中心评估框架。
+[A]: That would be awesome！Please send me the agenda when you get a chance。说不定我们team可以join as guest speaker，分享一些real-world的case study。这个topic和我们current的project实在太aligned了！
+[B]: 好的，我会把联系方式和会议资料发给你。不过提醒一下，这个沙龙主要使用中文交流，因为参与者大多是本土的研究人员和从业者。你们准备案例研究时可能需要考虑这个语言环境。
+[A]: No problem！我们有很多Chinese-speaking的team member，而且presentation materials可以做成bilingual的。Actually，这种cross-cultural的exchange正是我们需要的。Looking forward to collaborating！
+[B]: 很高兴听到你们对跨文化交流持开放态度。期待在下个月的研讨会上听到你们分享的实际案例 - 相信这些来自一线的经验会对国内的人工智能伦理研究很有启发。
+[A]: Definitely！我们一定会bring some fresh perspectives。对了，如果你对AI ethics的startup scene也感兴趣的话，我还可以introduce几个很promising的团队。他们的approach都很有local insights。
+[B]: 本土创业团队确实能提供独特的视角。不过我个人更关注的是如何将这些创新实践转化为可推广的行业标准。也许我们可以找个时间深入聊聊，看看能否共同撰写一份关于中国AI伦理实践的白皮书？
+[A]: That's a brilliant idea！我们正好在compile一些best practices，collaborate on a white paper会是个great next step。Let's schedule a separate meeting to discuss the details？我可以让我们的research lead也join in。
+[B]: 好主意。建议我们先各自整理手头的资料，两周后再约个具体时间详谈。这样可以让讨论更有针对性，也能确保你们的研究负责人能参与进来。

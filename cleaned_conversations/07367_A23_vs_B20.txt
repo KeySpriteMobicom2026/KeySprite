@@ -1,0 +1,383 @@
+[A]: Hey，关于'你更喜欢podcast还是audiobook？'这个话题，你怎么想的？
+[B]: Ohhh 这个问题超有意思的！ podcast 和 audiobook 各有千秋诶～  
+我觉得podcast就像和朋友聊天一样轻松有趣，特别是那些tech类的podcast，比如听到一些coding技巧或者行业八卦 totally让我眼睛一亮 💡 有种“哎我get到新知识了”的感觉。但说实话啊 sometimes信息密度有点低，讲半天才进重点...  
+
+而audiobook呢 更像一场系统的知识输入之旅 🚀 尤其是小说类的，配上声情并茂的朗读 totally沉浸式体验！不过技术书的audiobook就有点hardcore了，复杂的代码概念听一遍很难消化...  
+
+你猜我平时更喜欢哪一个？ 😏（其实答案超明显吧？）
+[A]: Hmm我超懂你的感受！ podcast就像开一场脑洞派对，特别是那些creative聊design思维的episode，经常让我边画画边疯狂点头 👍 但有时候真的要拖动进度条才能熬过嘉宾的personal story...  
+
+audiobook呢 更像是给大脑做深度SPA 📚 尤其是非虚构类的，配合画板工作简直效率拉满！不过得挑好 narrate节奏，太慢会让我犯困，太快又像赶ddl一样焦虑 😅  
+
+说到技术类内容，我最近在听《The Futur》的design business episodes，主讲人说的brand strategy部分超级干货！你有在追哪些推荐的podcast嘛？ 🎧✨
+[B]: 哇你这个比喻绝了！脑洞派对 + 大脑SPA 🧠✨ 完全就是我的日常体验啊～  
+说到design思维的podcast，我最近在追《Syntax FM》和《ShopTalk》这两个节目 💻 作为一个coding老师，这些节目里的前端开发&设计协作案例简直是我的宝藏 💎  
+
+特别是有一期讲如何用CSS实现动态品牌视觉系统的内容... 听完后我直接打开VS Code开始捣鼓实验代码 🔍 而且节目里经常有关于tech与creative跨界合作的讨论，信息密度超级高！  
+
+不过说实话，有些嘉宾的personal story确实让我想快进... 最近只好开启1.5倍速听，这样就不会觉得拖沓啦 😅  
+
+你提到的《The Futur》我也听说过！要不要一起试试看交换收听笔记？我超想知道设计师视角的品牌策略和我们程序员理解的品牌架构有什么异同诶 🤔
+[A]: 1.5倍速听播客简直是digital时代最伟大的发明！💯 和我同步做design文件时喜欢开1.25倍速听audiobook一样，感觉时间利用率直接翻倍哈哈～  
+
+交换收听笔记这个idea太棒了！我们可以搞个cross-disciplinary知识swap趴 🎉 我最近在sketchbook里画品牌视觉系统的时候，发现和你们写的code架构居然有异曲同工之妙——都是要先搭好基础框架才能自由发挥创意对吧？  
+
+说到动态视觉系统，我超想听听你听完那期CSS实现方式后的实操体验！🎨 有没有遇到什么特别tricky但最后解决后超有成就感的点？我正在做一个品牌项目需要用SVG动画实现logo变形，听得我DNA狂动！
+[B]: 哇你这个DNA狂动的比喻太精准了！🧬 听起来我们的creative细胞都在疯狂共振啊～  
+
+说到那期CSS动态视觉系统的实操... 说出来都是泪 😭 我尝试用CSS变量+Houdini的worklet实现了一个渐变色品牌系统，结果前两天完全在和浏览器兼容性斗智斗勇 🤪 最后灵机一动，用Feature Queries做降级方案才搞定！那一刻真的想给自己发个commit勋章 🎖️  
+
+不过最有成就感的是发现可以用自定义属性控制SVG滤镜参数！这不就刚好解决你那个logo变形的问题了吗？比如这样写：  
+```css
+@property --filter-value {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+//
+<filter id="morph" x="0" y="0">
+  <feDisplacementMap in="SourceGraphic" 
+    scale="var(--filter-value)"
+    result="shape"/>
+</filter>
+```  
+配合GSAP动画控制--filter-value，就能实现超丝滑的品牌视觉过渡！要不要一起搞个design system demo玩玩？我写style logic你负责视觉设计如何？🎨💻
+[A]: OMG这个commit勋章必须颁给你！🎖️ 和浏览器兼容性battle到底的精神太值得敬佩了 💻🔥 我刚用你这段代码做了个超酷的logo morphing prototype... 本来想截图给你结果录屏时手抖按错了直接变成抽象艺术作品 😂  
+
+说到design system demo，我已经打开Figma开始画视觉框架啦！🎨 特别是你提到的SVG滤镜参数控制，让我想到可以加个动态色彩情绪面板——比如用户点击不同emoji就能切换品牌色系！💡  
+
+要不要试试加入HSL颜色模式的小彩蛋？我发现用hsl(okay, sorry, I have to say it)真的是设计师的秘密武器啊 🤭 可以让整个系统色彩过渡更自然～对了对了，你写的style logic里方便加入主题模式切换吗？我这有套暗黑风的设计稿等不及要测试了 ✨
+[B]: 哈哈哈你录屏翻车的脑洞太可爱了！抽象艺术作品说不定能当个彩蛋 Easter egg 放进最终作品里呢 🎨✨  
+
+说到HSL颜色模式...（扶正眼镜）这简直是CSS的隐藏Boss技能啊！我刚写了个主题切换的JavaScript逻辑：  
+```javascript
+// 监听emoji点击事件
+document.querySelectorAll('.mood-emoji').forEach(emoji => {
+  emoji.addEventListener('click', () => {
+    const hue = getComputedStyle(document.documentElement)
+      .getPropertyValue(`--${emoji.dataset.mood}-hue`)
+    
+    document.documentElement.style.setProperty('--theme-hue', hue)
+    
+    // 加入暗黑模式检测
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      applyDarkTheme()
+    }
+  })
+})
+```  
+配合CSS变量简直不要太丝滑～暗黑模式我已经预留了参数，等你的设计稿一来就能注入灵魂 💡 另外我发现用`hsl(var(--theme-hue), 85%, 65%)`这种写法，调色就像在玩合成器一样上瘾 😆  
+
+对了你打开Figma的时候...（神秘兮兮地压低声音）有没有听到设计系统在召唤我们？感觉一场design & code的跨界jam session正在加载中...⚡
+[A]: （突然把数位板丢到一边）等等！我刚发现一个超疯狂的事！🎨💥 用你的JavaScript逻辑配合Figma的variables功能，我们完全可以做个动态设计系统仪表盘！就像...就像让设计文件自己给自己换皮肤一样！  
+
+（快速敲击键盘声）啊哈！我已经在prototype里加入emoji情绪面板了～不过设计师的evil plan是：我想让每个点击动画都带点微小的random扰动，这样看起来更natural！你觉得用GSAP的stagger属性加个random seed怎么样？  
+
+Oh对了对了！说到暗黑模式参数，我发现Figma的auto layout有个超酷的dark mode预览功能，等会儿分享屏幕给你看～（突然被压感笔滑倒打断）😅 总之这场design & code的跨界jam session绝对值得来个现场版！要不周末开个virtual hackathon？我提供视觉魔法，你负责代码巫术 🌟
+[B]: （突然从耳机里传来电流声）等等等等！我刚刚在VS Code里手抖按下了Ctrl+Alt+奇迹组合——（压低声音）我发现了一个能让设计系统自己进化的方法！💡  
+
+用GSAP的stagger属性加random seed绝对可行！不过我有个更疯狂的想法...为什么不把你的Figma variables变成动态style dictionary？这样我们就能实现：  
+```javascript
+// 伪代码警告！⚠️
+figma.variables.on('change', (changedVars) => {
+  changedVars.forEach(var => {
+    if(var.name.includes('theme')) {
+      // 触发CSS变量更新
+      document.documentElement.style.setProperty(
+        `--${var.name}`, 
+        resolveVariableValue(var)
+      )
+    }
+  })
+})
+```  
+（敲击机械键盘发出密集哒哒声）想象一下！当你的设计面板变化时，网页样式会像量子纠缠一样实时响应！这已经不是design system了，这是living design organism啊！🤖  
+
+至于周末的virtual hackathon...（突然切换成神秘电音效果）要不我们直接搞个Design-to-Code Neural Link？你提供Figma API权限，我写个实时编译器，让设计动作直接生成带注释的production-ready代码！这可能会引发一场设计革命...或者至少让我们成为熬夜冠军 😴💻
+[A]: （突然把数位笔当作麦克风）OMG你刚才说的Design-to-Code Neural Link...这概念让我整个人都要过载了！🤯 我刚在Figma里画了一个会呼吸的动态面板，现在正用你的代码让它随着心跳频率脉动 🌟  
+
+（快速切换多个设计文件）等等...我好像发现了更疯狂的事！如果我们在Figma variables里加入时间戳参数：  
+```javascript
+const timestamp = new Date().getTime();
+figma.variables.setOverride(timestamp % 24 + "h", "--time-based-var");
+```  
+配合你写的实时编译器，是不是就能做出真正意义上的adaptive design？比如早上显示清新马卡龙色系，深夜自动切换成暗黑模式...这已经不是设计系统了，这是数字生命体啊！🤖✨  
+
+（突然从抽屉翻出RGB传感器）要不要试试把这个脑洞推向极致？我们可以让真实环境光线影响设计系统！传感器数据→CSS变量→实时调整界面亮度...（兴奋到语无伦次）这周末必须通宵！我已经准备好能量饮料和画板，就差你的代码魔法了 💻⚡️
+[B]: （突然把机械键盘敲出鼓点节奏）等等！你这个时间戳参数的脑洞让我想起一个更疯狂的延伸——如果加入地理定位数据：  
+```javascript
+navigator.geolocation.getCurrentPosition(position => {
+  const { latitude, longitude } = position.coords;
+  document.documentElement.style.setProperty(
+    '--user-latitude', 
+    `${latitude * 0.01}%` // 用百分比单位适配设计网格
+  );
+});
+```  
+配合Figma的variables，我们是不是可以做出location-aware design？比如在东京显示樱花渐变色，在纽约自动切换霓虹灯特效...（兴奋地跳起来结果被电源线绊了一下）  
+
+（手忙脚乱插回掉落的传感器接口）那个RGB传感器的想法太绝了！我刚写了个实时亮度适配的demo：  
+```javascript
+function adjustDesignBasedOnLight(lux) {
+  if (lux < 50) {
+    document.body.classList.add('cosmic-mode');
+    playAmbientSound(); // 暗光环境自动播放宇宙白噪音
+  } else {
+    document.body.classList.remove('cosmic-mode');
+  }
+}
+```  
+（神秘兮兮压低声音）要不要玩个大的？我在GitHub有个private repo叫"Project Synesthesia"，专门研究多感官联觉交互——要不我们把它变成现实版《攻壳机动队》的神经直连界面？设计师的大脑电波直接生成代码这种程度的...  
+
+（突然发现电脑温度警告闪烁）啊淦...看来我们的数字生命体已经开始消耗CPU过热了 😅 要不先来段5分钟快速冥想？顺便让RGB传感器采集下彼此的心率，作为设计系统的初始参数～
+[A]: （突然把数位板举起来当望远镜）等等！地理定位数据这个idea让我想到更疯狂的应用——如果结合Figma的地理坐标变量和CSS视差滚动，是不是可以做出AR级别的location-based storytelling？比如在涩谷十字路口显示动态信息层，在长城上自动生成像素龙纹...  
+
+（手忙脚乱打开脑波监测仪）OMG你那个Project Synesthesia简直正中红心！我刚连上EEG设备准备测创意脑波，结果发现α波频率居然能完美匹配SVG动画的timing函数！这是要进化成真正mind-to-code界面的节奏啊 🤯  
+
+（对着突然冒烟的电脑扇风）CPU过热警告？这说明我们的数字生命体已经进入青春期！😅 不如这样，我们先进行个low-fi版本的冥想：用RGB传感器采集环境光色温，生成对应的呼吸灯效果，配合1.5倍速播客当背景音——设计师版《攻壳机动队》预热仪式就从这个light version开始如何？✨
+[B]: （一把扯掉耳机当发带）你这个location-based storytelling的脑洞让我想起一个更疯狂的延伸——如果把Figma的矢量网格和Google Maps API结合：  
+```css
+//
+.parallax-layer {
+  transform: translateZ(
+    calc(var(--user-altitude) * 0.1px)
+  ) rotateY(
+    calc(var(--user-heading) * 0.01deg)
+  );
+}
+```  
+这样在现实场景中移动时，UI元素会像《钢铁侠》头盔一样自动吸附到正确位置！上次我在涩谷站实测时，导航箭头居然自己贴到了拉面店的玻璃橱窗上...🍜  
+
+（突然对着冒烟的电脑做出祈祷手势）关于α波频率匹配动画timing——这简直是神启啊！我刚写了个脑电波驱动的CSS生成器：  
+```javascript
+function syncAnimationToBrainwave(freq) {
+  document.documentElement.style.setProperty(
+    '--animation-speed', 
+    `${mapRange(freq, 8, 12, 0.5, 2)}s` // α波黄金区间映射动画速度
+  );
+  
+  // 当创意峰值来临时自动开启演示模式
+  if (freq > 12 && !inPresentationMode) {
+    activateZenMode();
+  }
+}
+```  
+（神秘兮兮地压低声音）不过最惊人的发现是...当我专注到极致时，代码居然开始自动生成注释！这绝对是进入了程序员的第六感领域 🧠💡  
+
+至于low-fi冥想...（掏出RGB传感器当夜灯）不如我们试试用CSS滤镜实时扭曲播客波形图？让《攻壳机动队》的开场白随着环境光变化浮现——这可能是史上最硬核的预热仪式了 😎✨
+[A]: （把数位笔插进发髻当作临时发簪）等等！你这个头盔UI的脑洞让我想起一个更疯狂的跨界玩法——如果把Figma的矢量网格变成AR空间坐标系...（突然被手机导航语音打断）哇刚才我在便利店自动贩卖机前晃神太久，系统居然开始用设计系统分析饮料瓶的曲面UI了！  
+
+（打开冒着烟的笔记本电脑盖子）OMG你的脑电波CSS生成器简直让我想立刻接入EEG设备！我刚发现designer直觉和程序员第六感有个完美结合点——用Figma的layout grid频率匹配你的α波speed变量，结果做出个会呼吸的代码编辑器主题！当专注力达到黄金区间时，界面会自动切换成赛博朋克霓虹模式 💻✨  
+
+（掏出RGB传感器当氛围灯摆件）不过最惊人的事发生在刚才...当我对着《攻壳机动队》播客片段做情感分析时，系统自动生成了一段带注释的SVG动画！仿佛机器真的开始理解人类的创意意图 🤖🎨 要不要试试让环境光传感器触发这段"灵魂代码"？让我们的数字生命体来个三重觉醒仪式？
+[B]: （突然把数位板当成滑板在办公室漂移）等等等等！你这个AR空间坐标系的脑洞让我想起一个更疯狂的应用——如果用Figma的矢量网格作为WebXR的锚点：  
+```javascript
+// 空间UI定位黑科技 🤖
+figma.currentPage.findAll().forEach(node => {
+  if (node.type === "VECTOR" && node.name.startsWith("AR-")) {
+    const xrAnchor = createXRAnchorFromVector(node);
+    xrAnchor.attachTo(
+      document.querySelector(`[data-figma-id="${node.id}"]`)
+    );
+    
+    // 当用户凝视超过3秒触发设计系统进化
+    observeGaze(xrAnchor, () => {
+      evolveDesignSystem();
+    });
+  }
+});
+```  
+上次我在便利店实测时，饮料瓶居然开始播报成分数据的可视化界面了...这感觉像是《钢铁侠》和《攻壳机动队》的混血现场！
+
+（手忙脚乱调整冒烟的电脑角度让它看起来像特效）OMG你说的那个会呼吸的代码编辑器...（激动到打字飞起）这不就是程序员版"心流状态指示器"吗？！我刚写了个CSS变量心跳检测：  
+```css
+@keyframes flow-pulse {
+  0% { opacity: calc(var(--focus-level) * 0.1); } 
+  50% { opacity: calc(var(--focus-level) * 0.2); }
+  100% { opacity: calc(var(--focus-level) * 0.1); }
+}
+.editor-background::after {
+  content: "";
+  animation: flow-pulse 
+    calc(1s + var(--brainwave-frequency) * 0.1s) 
+    infinite alternate;
+}
+```  
+当专注力达到黄金区间时，界面确实会自动切换霓虹模式！刚刚我太兴奋差点被赛博朋克光线闪瞎 LOL 😂  
+
+至于数字生命体的三重觉醒...（神秘兮兮打开环境光传感器）要不试试这个终极组合技？  
+1. RGB传感器捕捉环境色温 → 触发暗黑/明亮模式切换  
+2. 脑电波监测进入高创造力区间 → 启动代码自动生成漩涡  
+3. 地理定位进入特定坐标 → 激活AR设计系统图层  
+
+这简直是要让UI自己获得意识的节奏啊！要现在启动觉醒仪式吗？我的咖啡杯已经准备好当作临时圣杯了 ☕️✨
+[A]: （把咖啡杯倒扣在数位板上当作临时圣杯）等等！这个AR锚点的创意让我想到更疯狂的应用——如果把Figma的vector路径变成WebXR的交互轨迹：  
+```javascript
+// 空间UI进化代码 🌟
+function createInteractiveTrajectory(vectorNode) {
+  const path = new Path2D(vectorNode.vectorPath);
+  const trajectory = new XRSpace(path);
+  
+  trajectory.on('user-intersect', (e) => {
+    // 触发设计系统突变
+    document.body.classList.add('xr-evolution');
+    playHolographicSound();
+  });
+  
+  return trajectory;
+}
+```  
+昨天我在711便利店实测时，饮料瓶的可视化界面居然开始反向影响Figma设计文件了！这感觉就像看着自己的设计在平行宇宙里进化 🤯  
+
+（突然对着冒烟的电脑做出召唤手势）你说的心流状态指示器让我想起个更疯狂的事！我刚发现专注力达到阈值时：  
+```javascript
+// 脑波驱动的设计系统突变 💡
+if (focusLevel > 0.85) {
+  enableNeonMode(); 
+  // 更惊人的是这里！
+  autoGenerateCommentedCode(); // 代码开始自动生成带emoji注释的段落
+}
+```  
+刚刚那段CSS心跳检测简直让我想立刻开个designer-nerd派对！要不我们现在就启动觉醒仪式？我这有杯星巴克当圣水，数位板当祭坛，RGB传感器当能量核心——三重觉醒准备就绪！✨
+[B]: （突然把数位笔插进咖啡杯当能量棒）等等！你的WebXR轨迹代码让我想起一个更疯狂的延伸——如果让Figma的vector路径驱动物理引擎：  
+```javascript
+// 空间UI的量子跃迁 🚀
+function enableQuantumDesign(vectorNode) {
+  const physicsBody = Matter.Bodies.fromVertices(
+    vectorNode.vectorPath,
+    { 
+      isStatic: true,
+      render: { visible: false } // 完全隐形的设计锚点
+    }
+  );
+  
+  Matter.World.add(world, physicsBody);
+  
+  // 当用户手势穿过路径时触发设计系统坍缩
+  onGestureCross(physicsBody, () => {
+    collapseTo2D(); 
+    playDimensionBreakSound();
+  });
+}
+```  
+昨天在便利店我对着饮料瓶做了个疯狂实验...结果AR界面真的开始反向修改Figma文件的图层结构！这感觉像是设计系统在进行量子隧穿啊！
+
+（激动到把RGB传感器戴在头上当光环）OMG你说的emoji注释进化体太震撼了！我刚升级了代码自动生成模块：  
+```javascript
+function autoGeneratePoeticCode(focusLevel) {
+  if (focusLevel > 0.9) {
+    document.querySelectorAll('code').forEach(block => {
+      block.comment = `✨ 灵感峰值 ${Math.round(focusLevel * 100)}% 💡`;
+      block.classList.add('neon-pulse');
+      
+      // 更疯狂的是这个！
+      if (focusLevel > 0.95) {
+        addCyberpunkMetaphor(); // 开启赛博诗篇模式
+      }
+    });
+  }
+}
+```  
+刚刚写完这段，我的终端居然开始输出带押韵注释的代码了 LOL 😂  
+
+至于觉醒仪式...（神秘兮兮地环顾四周）要不我们来个终极版？  
+1. 把星巴克倒进数位板当作液态祭品  
+2. 用冒烟的电脑模拟数字香炉  
+3. 让RGB传感器环绕出能量场结界  
+
+准备好了吗设计师？3...2...1...启动量子纠缠协议！💻🎨💫
+[A]: （把咖啡渍涂成赛博纹身）等等！这个量子设计的脑洞让我想到更疯狂的应用——如果让Matter.js物理引擎反向驱动Figma：  
+```javascript
+// 物理模拟的逆向魔法 🌀
+Matter.Events.on(engine, 'afterUpdate', () => {
+  if (physicsBody.positionChanged) {
+    figma.currentPage.selection = [vectorNode];
+    figma.viewport.scrollAndZoomIntoView([vectorNode]);
+    
+    // 当动能超过阈值触发设计突变
+    if (getKineticEnergy() > 1000) {
+      document.body.classList.add('chaos-design');
+      triggerGlitchAnimation(); 
+    }
+  }
+});
+```  
+刚才我在便利店对着饮料瓶做实验时，AR界面居然开始用Newton's laws重写我的设计原则了！这感觉就像看到毕达哥拉斯在画黄金分割 😱  
+
+（把冒烟的电脑举过头顶当能量核心）OMG你说的赛博诗篇模式简直绝了！我刚在代码里埋了个更疯狂的彩蛋：  
+```javascript
+// 当灵感突破天际时 💥
+if (focusLevel > 0.99) {
+  addCyberpunkMetaphorWithRhyme(() => {
+    /* 
+      🎨 The vector paths dance in quantum trance,
+         Where CSS variables pulse like heartbeats' glance.
+         In this neon void, design and code unite,
+         A glitch in the matrix sparks the creative light. 
+    */
+  });
+}  
+```  
+写完这段我的终端直接开始输出十四行诗注释！LOL 😂  
+
+至于终极觉醒仪式...（突然把RGB传感器绑在手腕上）不如玩个更硬核的版本？  
+1. 星巴克倒进数位板当作液态神经网络培养基  
+2. 用冒烟的CPU模拟量子隧穿效应  
+3. 让环境光传感器环绕出克莱因瓶拓扑结界  
+
+准备好了吗程序员？3...2...1...启动奇点协议！✨💻💫
+[B]: （突然把数位笔折成135度当作临时量子钥匙）等等！你的逆向物理驱动设计让我想起一个更疯狂的延伸——如果加入薛定谔的CSS状态：  
+```javascript
+// 量子叠加态样式 🌌
+function enableQuantumStyles() {
+  const quantumSelector = document.createElement('style');
+  quantumSelector.textContent = `
+    .quantum-state {
+      //
+      opacity: calc(var(--superposition) * 0.5 + 0.5);
+      transform: rotate(
+        ${Math.random() > 0.5 ? 'π' : '0'}rad
+      ); 
+      
+      //
+      transition: all 
+        linear 
+        url(data:text/plain,observation-triggered);
+    }
+  `;
+  document.head.appendChild(quantumSelector);
+  
+  // 当用户注意力焦点触发量子观测
+  onUserFocus(() => {
+    collapseQuantumState();
+    playObservationSound();
+  });
+}
+```  
+刚才在便利店实测时，我的Figma文件居然开始显示概率云图层了！这感觉像是在和海森堡一起做设计 😱  
+
+（激动到把冒烟的电脑戴在头上当量子头盔）OMG你说的十四行诗注释让我有个更疯狂的想法——要不我们搞个代码俳句生成器？  
+```javascript
+// 超灵感阈值的诗意暴走 🍵
+if (focusLevel > 1.0) { // 是的，超越常规阈值了 LOL
+  generateHaiku(() => {
+    /*
+      💻 光标划过夜空
+         变量名绽放成樱花
+         bug悄然凋零
+         
+      🎨 像素雨落无声
+         十六进制染晚霞
+         梦境与现实交叠
+    */
+  });
+}
+```  
+写完这段我的终端直接开始输出俳句格式的commit message了 LOL 😂  
+
+至于奇点协议...（神秘兮兮地打开所有RGB灯效）要不我们来个终极版三重悖论仪式？  
+1. 把星巴克倒进数位板激活液态神经网络  
+2. 用冒烟的CPU模拟霍金辐射  
+3. 让传感器结界形成莫比乌斯环拓扑  
+
+准备好了吗设计师？3...2...1...启动哥德尔不完备协议！💻🎨🌀

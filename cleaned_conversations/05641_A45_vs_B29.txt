@@ -1,0 +1,20 @@
+[A]: Hey，关于'最近有尝试什么DIY project吗？'这个话题，你怎么想的？
+[B]: Ah，正好最近在折腾一个超酷的Raspberry Pi项目！🤔 用树莓派搭建了一个去中心化的weather station，可以自动把数据上传到IPFS上。不过sensor calibration这块还在调试中...
+[A]: 哇塞！IPFS存储weather data这个idea太赞了！💡 我最近也在玩Raspberry Pi，做了个智能plant watering system，用Python写的script自动监测soil moisture。不过MQTT protocol那块configuration搞了好久才work...🌱
+[B]: 哈哈，MQTT确实是个pain point！🚀 我建议你可以试试用Chainlink的oracle把plant data上链，这样就能实现自动触发watering的smart contract了。上周我刚帮一个agritech startup实现了类似的solution～
+[A]: 等等...用smart contract控制浇水？！🤯 这也太硬核了吧！不过我们学校hackathon下个月主题就是IoT+Blockchain，这个idea简直perfect！能share一下你用的solidity code吗？我可以用我的Arduino kit来交换～
+[B]: 当然可以！💡 我github上有现成的template contract，特别适合hackathon场景。不过建议你先focus在hardware integration上，gas fee optimization这部分可以后期再做～ 顺便说一句，你的Arduino kit是哪个model？我最近想做个cosmic ray detector，正好需要些components～
+[A]: OMG cosmic ray detector？！这也太酷了吧！🎯 我用的是Arduino MKR WiFi 1010，自带LoRa module超适合IoT项目～ 诶对了，你考虑过用TensorFlow Lite做edge computing吗？这样sensor data就不用全部upload到cloud啦！
+[B]: Bingo！🤓 我们想到一块儿去了～ 其实我正在用TensorFlow Lite做local anomaly detection，只把异常数据传到链上。这样能省下80%的gas fee！你的MKR 1010刚好支持TinyML，要不要一起写篇medium article分享这个architecture？🚀
+[A]: 天呐这个collab太棒了！💻 我负责写hardware setup部分，你来handle smart contract optimization怎么样？正好可以给下个月的ETH Shanghai hackathon预热一下～ 对了，记得用Markdown写哦，我超爱用VS Code的preview功能！✨
+[B]: Perfect match！📝 我用VS Code + Solidity插件写contract部分，再配上几个gas consumption的benchmark图表～ 周末我们可以去徐汇滨道的hackerspace边喝咖啡边brainstorming，我新入手的Mechanical keyboard手感超适合coding！⌨️
+[A]: Deal！☕️ 我带上我的M1 Macbook和一堆sensor modules～ 顺便可以测试下在RISC-V架构上跑TinyML的性能！最近看到个超酷的open source framework叫Tinygrad，说不定能用在我们的project里！🤖
+[B]: Tinygrad？！🤯 这个framework我关注好久了！它和我们的edge computing方案简直是绝配～ 我刚刚fork了他们的repo，等会儿发你几个optimized kernel的branch。周六见！记得带你的spectrometer，我们可以顺便测测cosmic ray的background noise～ 🌌
+[A]: Absolutely！周六10点hackerspace见～ 我已经在Notion上建好了project wiki，把research paper和circuit diagram都整理好了。PS：我刚订了盒马的小龙虾，coding到半夜也不怕饿肚子啦！🦞💻
+[B]: 哈哈，小龙虾+blockchain hacking，这就是geek的终极快乐！🦞🚀 我刚把solidity的gas profiling script push到repo了，还加了几个emoji注释方便你review～ 周六见！记得带外套，hackerspace的空调超猛，上次我debug到凌晨冻成狗了🐶
+[A]: Roger that！🧥 我会带上我的NASA联名款hoodie的～ 顺便把我的便携式示波器也带上，上次发现你的sensor signal有noise issue，这次一定要帮你tune到perfect！周六不见不散，现在我得赶紧去补作业了，明天还有math test...😭
+[B]: Good luck with your math test! 📚 我当年也是靠LaTeX写公式熬过来的～ 周六我们先把示波器接上你的Arduino，搞定signal conditioning后再来优化ML model的latency。现在快去复习吧，记得用Pomodoro technique！🍅 25分钟coding，5分钟看星星～ 🌠
+[A]: Haha Pomodoro yyds！⏰ 谢谢提醒～ 我这就去开个VSCode split screen，左边math notes右边Jupyter notebook（别问我为什么这么硬核复习😂）。周六见啦，may the force be with your final exam！✨ 记得把示波器的BNC cable也带上哦～
+[B]: Copy that！📡 我的示波器cable都缠得整整齐齐的，强迫症患者表示极度舒适～ 对了，刚收到盒马通知，小龙虾升级成麻辣+蒜香双拼了！现在我得去拯救我的linear algebra了，周六让你见识下什么叫"debugging with 火锅能量"！🔥💻 拜拜～
+[A]: 哈哈哈火锅能量max！🌶️💪 我也要去和eigenvalues搏斗了...周六见！PS：刚给你repo发了pull request，加了个超可爱的ASCII art小龙虾在README里～ 🦞✨ Byeeee！
+[B]: LGTM！👍 那个ASCII art小龙虾简直神来之笔，我已经merge了～ 现在我的terminal每次git pull都会弹出个小龙虾，同事们都笑疯了！🦞💻 快去征服你的eigenvalues吧，周六我们左手撸代码右手撸串儿，想想都嗨！Ciao～ 🚀
