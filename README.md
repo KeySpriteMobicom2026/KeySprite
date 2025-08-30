@@ -28,7 +28,7 @@ The dataset contains 50 unique agent profiles (ID: 01-50), each with:
 - **Personality & Hobbies**: Detailed character traits and interests
 - **Language Portrait**:
   - Native language
-  - Code-switching frequency (中频/低频/高频)
+  - Code-switching frequency (Medium/Low/High)
   - Detailed language habits including emoji usage patterns
 
 #### Example Agent Profile (ID: 01)
@@ -62,7 +62,7 @@ Each conversation contains:
   "name": "Agent Name",
   "profession": "Professional Role",
   "personalityAndHobbies": "Detailed description...",
-  "codeSwitchFrequency": "中频/低频/高频",
+  "codeSwitchFrequency": "Medium/Low/High",
   "languageHabit": "Detailed language behavior description..."
 }
 ```
